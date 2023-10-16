@@ -7,3 +7,6 @@
 [submodule "layers/meta-openembedded"]
 	path = layers/meta-openembedded
 	url = https://github.com/openembedded/meta-openembedded/
+[submodule "layers/meta-imx"]
+	path = layers/meta-imx
+	url = https://github.com/nxp-imx/meta-imx.git
