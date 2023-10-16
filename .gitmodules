@@ -10,3 +10,6 @@
 [submodule "layers/meta-imx"]
 	path = layers/meta-imx
 	url = https://github.com/nxp-imx/meta-imx.git
+[submodule "layers/meta-freescale"]
+	path = layers/meta-freescale
+	url = https://github.com/Freescale/meta-freescale/
