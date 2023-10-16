@@ -19,3 +19,6 @@
 [submodule "layers/meta-bsp-imx9"]
 	path = layers/meta-bsp-imx9
 	url = https://github.com/compulab-yokneam/meta-bsp-imx9.git
+[submodule "layers/meta-balena"]
+	path = layers/meta-balena
+	url = https://github.com/balena-os/meta-balena.git
