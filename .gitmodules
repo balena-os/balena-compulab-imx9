@@ -16,3 +16,6 @@
 [submodule "layers/meta-compulab-bsp"]
 	path = layers/meta-compulab-bsp
 	url = https://github.com/compulab-yokneam/meta-compulab-bsp
+[submodule "layers/meta-bsp-imx9"]
+	path = layers/meta-bsp-imx9
+	url = https://github.com/compulab-yokneam/meta-bsp-imx9.git
