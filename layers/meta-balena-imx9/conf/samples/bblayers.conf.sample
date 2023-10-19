@@ -17,6 +17,7 @@ BBLAYERS ?= " \
     ${TOPDIR}/../layers/meta-openembedded/meta-perl \
     ${TOPDIR}/../layers/meta-freescale \
     ${TOPDIR}/../layers/meta-imx/meta-bsp \
+    ${TOPDIR}/../layers/meta-imx/meta-ml \
     ${TOPDIR}/../layers/meta-bsp-imx9 \
     ${TOPDIR}/../layers/meta-compulab-bsp/meta-bsp \
     ${TOPDIR}/../layers/meta-compulab-bsp/meta-utils \
