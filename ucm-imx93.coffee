@@ -2,7 +2,6 @@ deviceTypesCommon = require '@resin.io/device-types/common'
 { networkOptions, commonImg, instructions } = deviceTypesCommon
 
 postProvisioningInstructions = [
-        instructions.BOARD_REPOWER
 ]
  
 module.exports =
@@ -10,7 +9,6 @@ module.exports =
         slug: 'ucm-imx93'
         name: 'Compulab UCM-iMX93 Devkit'
         arch: 'aarch64'
-        state: 'released'
  
         stateInstructions:
                 postProvisioning: postProvisioningInstructions
