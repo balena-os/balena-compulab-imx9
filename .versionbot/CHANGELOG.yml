@@ -1,1 +1,36 @@
-[]
+- commits:
+    - subject: "layers/meta-balena: Update to v4.0.27"
+      hash: 425edd1bc9b893f580b4e1de936150c85fb35315
+      body: ""
+      footer:
+        Changelog-entry: "layers/meta-balena: Update to v4.0.27"
+        changelog-entry: "layers/meta-balena: Update to v4.0.27"
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+      nested: []
+    - subject: Add ucm-imx93 coffee file
+      hash: 6bf164351207a70c092ebd563f64e774bd1865f9
+      body: ""
+      footer:
+        Changelog-entry: Add ucm-imx93 coffee file
+        changelog-entry: Add ucm-imx93 coffee file
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+      nested: []
+    - subject: "layers/meta-bsp-imx9: Add compulab imx9 bsp layer"
+      hash: 896a3278b51c8cb0bee66db25ac753b8e2715f6e
+      body: >
+        as per the revision set in
+        raw.githubusercontent.com/compulab-yokneam/meta-bsp-imx9/kirkstone-2.2.0/scripts/meta-bsp-imx9.xml
+      footer:
+        Changelog-entry: "layers/meta-bsp-imx9: Add compulab imx9 bsp layer"
+        changelog-entry: "layers/meta-bsp-imx9: Add compulab imx9 bsp layer"
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+      nested: []
+  version: 4.0.27
+  title: ""
+  date: 2023-10-21T15:44:31.823Z
