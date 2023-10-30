@@ -5,6 +5,13 @@ DEPENDS += "rsync-native"
 
 SRC_URI:append = "file://0001-fix-kernel-build.patch"
 
+# Upstream uses AUTOREV, but we need to track
+# the stable release as per the release notes,
+# at the date of the present commit,
+# otherwise we won't know which exact kernel
+# revision is used by which balenaOS release
+SRCREV="77c117ac5747ea5c1afbdde8dcc5ca8b8b231e13"
+
 # Fixes issue where cryptodev module is installed
 # along with the kernel image in the initramfs
 KERNEL_PACKAGE_NAME="kernel"
