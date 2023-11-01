@@ -24,5 +24,5 @@ IMAGE_INSTALL:remove = "jailhouse"
 CORE_IMAGE_EXTRA_INSTALL:remove = " gpsd gps-utils connman wvdial ppp modemmanager "
 
 # THe eMMC has 64GB, let's ensure there's sufficient space for the rootfs in the future
-IMAGE_ROOTFS_SIZE = "733184"
+IMAGE_ROOTFS_SIZE = "983040"
 unset ROOTFS_SIZE
