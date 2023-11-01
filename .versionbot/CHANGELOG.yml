@@ -1,4 +1,38 @@
 - commits:
+    - subject: "layers/meta-balena: Update to v4.0.29"
+      hash: ab3bfcde342031930927011bbb0928b61f1f7f9d
+      body: ""
+      footer:
+        Changelog-entry: "layers/meta-balena: Update to v4.0.29"
+        changelog-entry: "layers/meta-balena: Update to v4.0.29"
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+      nested: []
+    - subject: "u-boot: Pin SRC_REV to the one present at the integration date"
+      hash: 4cc6adc525e4b383e1b9752673d97a3819378587
+      body: >
+        Upstream uses AUTOREV and this causes two problems:
+         - we don't know which revision has been used by which
+           balenaOS release
+         - automated Jenkins builds sometimes break when upstream performs changes
+           and we can't easily determine the window in which the changes
+           have been performed
+
+        We thus pin the SRC_REV to the revision used when the device has
+
+        been integrated with balenaOS, as per the upstream relese tag xml
+      footer:
+        Changelog-entry: "u-boot: Pin SRC_REV to the one present at the integration date"
+        changelog-entry: "u-boot: Pin SRC_REV to the one present at the integration date"
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+      nested: []
+  version: 4.0.29
+  title: ""
+  date: 2023-11-01T13:55:19.537Z
+- commits:
     - subject: "layers/meta-balena: Update to v4.0.27"
       hash: 425edd1bc9b893f580b4e1de936150c85fb35315
       body: ""
