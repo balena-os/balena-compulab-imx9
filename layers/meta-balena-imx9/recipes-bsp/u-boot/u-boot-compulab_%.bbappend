@@ -12,6 +12,13 @@ SRC_URI:append = " \
 BALENA_DEVICE_FDT_ADDR_VAR = "fdt_addr_r"
 BALENA_UBOOT_DEVICE_TYPES = "usb mmc"
 
+# Upstream uses AUTOREV, but we need to track
+# the stable release as per the release notes,
+# at the date of the present commit,
+# otherwise we won't know which exact
+# revision is used by which balenaOS release
+SRCREV="34382c7df25560904a521d3f62bf5768899c55a2"
+
 # Bring in configure step from poky
 # to make sure the merge_config script is called
 # appropriately, otherwise the build will fail
