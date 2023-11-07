@@ -18,7 +18,6 @@ IMAGE_INSTALL:append = " \
 
 IMAGE_INSTALL:remove = "kernel-image"
 IMAGE_INSTALL:remove = "kernel-image-image"
-#IMAGE_INSTALL:remove = "packagegroup-fsl-optee-imx"
 IMAGE_INSTALL:remove = "jailhouse"
 
 CORE_IMAGE_EXTRA_INSTALL:remove = " gpsd gps-utils connman wvdial ppp modemmanager "
