@@ -1,6 +1,41 @@
 Change log
 -----------
 
+# v4.1.5
+## (2023-11-12)
+
+
+<details>
+<summary> Update layers/meta-balena to 53a1e875f6a48f891d26b5edb9295fc6486ab4e8 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-4.1.5
+> ### (2023-11-10)
+> 
+> * update-balena-supervisor: ensure target supervisor is running [Alex Gonzalez]
+> * update-balena-supervisor: use os-helpers logging [Alex Gonzalez]
+> * hostapp-update: surface logs to journal [Alex Gonzalez]
+> * hostapp-update-hooks: surface logs to journal [Alex Gonzalez]
+> * os-helpers-logging: skip logging to journal from a container [Alex Gonzalez]
+> 
+> ## meta-balena-4.1.4
+> ### (2023-11-10)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to af50e8d [Self-hosted Renovate Bot] </summary>
+> 
+>> ### leviathan-2.29.10
+>> #### (2023-11-08)
+>> 
+>> * core: remove request timeout on flashing [rcooke-warwick]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v4.1.3
 ## (2023-11-06)
 
