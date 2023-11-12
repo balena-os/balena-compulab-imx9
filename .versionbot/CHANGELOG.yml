@@ -1,4 +1,42 @@
 - commits:
+    - subject: Update contracts to 109179385bb4b862cd7572be14d4c5edddbd93c9
+      hash: d3acb4759982e20840ac9fad04e9928336faedf2
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 109179385bb4b862cd7572be14d4c5edddbd93c9
+        changelog-entry: Update contracts to 109179385bb4b862cd7572be14d4c5edddbd93c9
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "hw.device-type: Add imx8mm-lpddr4-evk device"
+              hash: 2ecc1b82d8a5e3d4a39e3d200a6c39d748c4d737
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex J Lennon <ajlennon@dynamicdevices.co.uk>
+                signed-off-by: Alex J Lennon <ajlennon@dynamicdevices.co.uk>
+              author: Alex J Lennon
+          version: contracts-2.0.81
+          title: ""
+          date: 2023-10-26T06:31:05.497Z
+        - commits:
+            - subject: "hw.device-type: Modify bluechiptechnology-tm3"
+              hash: 3d2002c5e35f4d20fc5ef5307f52f1cfbb91d6ab
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Chris Richardson <crichardson@bluechiptechnology.com>
+                signed-off-by: Chris Richardson <crichardson@bluechiptechnology.com>
+              author: crichardson
+          version: contracts-2.0.80
+          title: ""
+          date: 2023-10-20T05:40:17.796Z
+  version: 4.1.5+rev1
+  title: ""
+  date: 2023-11-12T15:06:32.828Z
+- commits:
     - subject: Update layers/meta-balena to 53a1e875f6a48f891d26b5edb9295fc6486ab4e8
       hash: 1a711baa03a7d42b033e3a57a7bc9130a816eb6c
       body: Update layers/meta-balena
