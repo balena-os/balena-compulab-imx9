@@ -1,6 +1,39 @@
 Change log
 -----------
 
+# v5.1.39
+## (2024-02-26)
+
+
+<details>
+<summary> Update layers/meta-balena to 47803bace87fd17c2b0bfe89bb06c0744ddcd5e3 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.1.39
+> ### (2024-02-26)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to ef8cbac [Self-hosted Renovate Bot] </summary>
+> 
+>> ### leviathan-2.29.61
+>> #### (2024-02-26)
+>> 
+>> * Update Lock file maintenance [Self-hosted Renovate Bot]
+>> 
+>> ### leviathan-2.29.60
+>> #### (2024-02-26)
+>> 
+>> * Update Lock file maintenance [Self-hosted Renovate Bot]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
+* Update contracts to 0c54ce2d25baac5485f3828dbfed58c33f881256 [Self-hosted Renovate Bot]
+
 # v5.1.38+rev1
 ## (2024-02-24)
 
