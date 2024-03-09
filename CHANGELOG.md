@@ -1,6 +1,90 @@
 Change log
 -----------
 
+# v5.1.51
+## (2024-03-09)
+
+
+<details>
+<summary> Update layers/meta-balena to ae98ddffb1a8055d98b2104db2f2901e9eddc14c [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.1.51
+> ### (2024-03-08)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v16.1.4 [Self-hosted Renovate Bot] </summary>
+> 
+>> ### balena-supervisor-16.1.4
+>> #### (2024-03-08)
+>> 
+>> * Update balena-register-device and its deps [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-16.1.3
+>> #### (2024-03-07)
+>> 
+>> * Remove dependency on @balena/happy-eyeballs [Felipe Lalanne]
+>> * Update Node to v20 [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-16.1.2
+>> #### (2024-03-06)
+>> 
+>> * Update typescript to v5 [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-16.1.1
+>> #### (2024-03-04)
+>> 
+>> * Update @balena/lint to v7 [Felipe Lalanne]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-5.1.50
+> ### (2024-03-07)
+> 
+> * tests/device-tree: Rework to account for new form of setting dtoverlay in config.txt by the supervisor [Florin Sarbu]
+> 
+> ## meta-balena-5.1.49
+> ### (2024-03-06)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to a677d89 [Self-hosted Renovate Bot] </summary>
+> 
+>> ### leviathan-2.29.64
+>> #### (2024-03-04)
+>> 
+>> * Update Lock file maintenance [Self-hosted Renovate Bot]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-5.1.48
+> ### (2024-03-06)
+> 
+> * hostapp-update-hooks: Soft include balena-config-defaults [Michal Toman]
+> 
+> ## meta-balena-5.1.47
+> ### (2024-03-03)
+> 
+> * classes: kernel-balena: fix secureboot append [Alex Gonzalez]
+> * classes: kernel-balena: correct dmcrypt dependencies [Alex Gonzalez]
+> * classes: kernel-balena: separate kexec configuration [Alex Gonzalez]
+> * kernel-balena: remove EFI specific settings [Alex Gonzalez]
+> * kernel-balena: separate EFI specific secure boot configurations [Alex Gonzalez]
+> * kernel-balena: remove deprecated kernel configuration [Alex Gonzalez]
+> * kernel-balena: add nfsd kernel setting [Alex Gonzalez]
+> 
+> ## meta-balena-5.1.46
+> ### (2024-03-02)
+> 
+> * resin_update_state_probe: ignore RAID members when looking for root [Michal Toman]
+> 
+
+</details>
+
 # v5.1.45+rev2
 ## (2024-03-06)
 

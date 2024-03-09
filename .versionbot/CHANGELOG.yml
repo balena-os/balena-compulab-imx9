@@ -1,4 +1,329 @@
 - commits:
+    - subject: Update layers/meta-balena to ae98ddffb1a8055d98b2104db2f2901e9eddc14c
+      hash: 6af4257f0bdbefd86f1d713b2d33b9fc4306cf63
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to ae98ddffb1a8055d98b2104db2f2901e9eddc14c
+        changelog-entry: Update layers/meta-balena to ae98ddffb1a8055d98b2104db2f2901e9eddc14c
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update balena-supervisor to v16.1.4
+              hash: 932d20360314f8297c9b34f5940a95847cc48f58
+              body: |
+                Update balena-supervisor from 16.1.0 to 16.1.4
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Self-hosted Renovate Bot
+              nested:
+                - commits:
+                    - subject: Update balena-register-device and its deps
+                      hash: 790f6b71e4c127a6c6078e3f3797992e78995d3b
+                      body: |
+                        This bumps the related dependencies
+
+                        - balena-register-device
+                        - balena-request
+                        - balena-auth
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Felipe Lalanne
+                      nested: []
+                  version: balena-supervisor-16.1.4
+                  title: ""
+                  date: 2024-03-08T14:10:19.423Z
+                - commits:
+                    - subject: Remove dependency on @balena/happy-eyeballs
+                      hash: 08727ed2b5f67c55b2469d3ee5c5e2857119521b
+                      body: >
+                        Node 20 now implements the happy eyeballs algorithm as
+                        part of its core
+
+                        `net` module, with the
+                        [autoSelectFamily](https://nodejs.org/docs/latest-v20.x/api/net.html#netgetdefaultautoselectfamily)
+                        option of `socket.connect`. This option defaults to
+                        `true`, meaning that a separate
+
+                        implementation of happy eyeballs is no longer needed.
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Felipe Lalanne
+                      nested: []
+                    - subject: Update Node to v20
+                      hash: b77dba20462df90ca720dae3fcacb84628fd5069
+                      body: >
+                        This updates the supervisor runtime to latest Node LTS
+                        version. There
+
+                        are no breaking changes related to this bump.
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Felipe Lalanne
+                      nested: []
+                  version: balena-supervisor-16.1.3
+                  title: ""
+                  date: 2024-03-07T16:10:24.150Z
+                - commits:
+                    - subject: Update typescript to v5
+                      hash: 6217546894e25c8216d305f231876fc888a6e407
+                      body: >
+                        This also updates code to use the default import syntax
+                        instead of
+
+                        `import * as` when the imported module exposes a
+                        default. This is needed
+
+                        with the latest typescript version.
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Felipe Lalanne
+                      nested: []
+                  version: balena-supervisor-16.1.2
+                  title: ""
+                  date: 2024-03-06T14:06:45.274Z
+                - commits:
+                    - subject: Update @balena/lint to v7
+                      hash: 988a1c9e9a2317a66f2be0a1dbddb89f8084014f
+                      body: >
+                        This updates balena lint to the latest version to enable
+                        eslint support
+
+                        and unblock Typescript updates. This is a huge number of
+                        changes as the
+
+                        linting rules are much more strict now, requiring
+                        modifiying most files
+
+                        in the codebase. This commit also bumps the test
+                        dependency `rewire` as
+
+                        that was interfering with the update of balena-lint
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Felipe Lalanne
+                      nested: []
+                  version: balena-supervisor-16.1.1
+                  title: ""
+                  date: 2024-03-04T18:16:11.250Z
+          version: meta-balena-5.1.51
+          title: ""
+          date: 2024-03-08T18:44:40.323Z
+        - commits:
+            - subject: "tests/device-tree: Rework to account for new form of setting dtoverlay
+                in config.txt by the supervisor"
+              hash: 12a0940ce31031e203364dd6c76a4fc07697133b
+              body: |
+                The supervisor will now write the following dtoverlay setting
+
+                "gpio-key,gpio=4,active_low=0,gpio_pull=down"
+
+                into config.txt in the following form:
+
+                dtoverlay=gpio-key
+                dtparam=gpio=4
+                dtparam=active_low=0
+                dtparam=gpio_pull=down
+
+                So we need to rework the test to account for these changes.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-5.1.50
+          title: ""
+          date: 2024-03-07T11:28:39.221Z
+        - commits:
+            - subject: Update tests/leviathan digest to a677d89
+              hash: cb9142269bc348e6c0dbe99dfc8b95d4215c0cf4
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Self-hosted Renovate Bot
+              nested:
+                - commits:
+                    - subject: Update Lock file maintenance
+                      hash: fad1b73fe8752efee01764264b4aecfd88faf584
+                      body: |
+                        Update
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Self-hosted Renovate Bot
+                      nested: []
+                  version: leviathan-2.29.64
+                  title: ""
+                  date: 2024-03-04T02:11:20.831Z
+          version: meta-balena-5.1.49
+          title: ""
+          date: 2024-03-06T18:33:42.003Z
+        - commits:
+            - subject: "hostapp-update-hooks: Soft include balena-config-defaults"
+              hash: a6cd568a3b3aec127e2ef5b9b480b657a3ea246e
+              body: >
+                a203bcdfd567c0cc4b4ed9de493513142cd7463f introduced a dependency
+
+                on /usr/sbin/balena-config-defaults to hostapp-update-hooks,
+                however
+
+                during HUP the script is not only executed in the "new" OS
+                container
+
+                but directly in the context of the "old" OS as well, so
+
+                /usr/sbin/balena-config-defaults needs to exist there.
+
+                The file was introduced in balenaOS v2.99.28, so trying to HUP
+
+                from anything before that will fail.
+
+
+                This patch changes this to a soft dependency so even if the file
+
+                is missing HUP will continue.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-5.1.48
+          title: ""
+          date: 2024-03-06T08:25:08.800Z
+        - commits:
+            - subject: "classes: kernel-balena: fix secureboot append"
+              hash: 78a00ffdbebfccabbbb2e891a4b50fa421117cac
+              body: |
+                Add missing space.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "classes: kernel-balena: correct dmcrypt dependencies"
+              hash: 7ee3a14c01b3fdb6a21a3a4b4758e719e9378d5f
+              body: |
+                Fixes the dm_crypt setting check config warning.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "classes: kernel-balena: separate kexec configuration"
+              hash: 693cd55fe098cc4675db28e76d7a174cbcbd8d3f
+              body: >
+                Only the EFI secure boot mechanism currently needs kexec
+                support, other
+
+                implementation will use the balena bootloader instead.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "kernel-balena: remove EFI specific settings"
+              hash: a5e3f7b25914e3b5b128675c7ca3df2eb7a3ccd8
+              body: >
+                The ZSTD support is not supported for all machines - restrict it
+                to those
+
+                that define EFI.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "kernel-balena: separate EFI specific secure boot configurations"
+              hash: 4f1dc09e6fb2de97f12302cb90b19a759e231277
+              body: |
+                These settings are specific to EFI and fail to apply for other
+                secure boot enabled platforms.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "kernel-balena: remove deprecated kernel configuration"
+              hash: 3c44c1417f7cfbe1ff8414f8e5845544167a5388
+              body: |
+                The NF_TABLES_SET module has been dropped from v5.10.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "kernel-balena: add nfsd kernel setting"
+              hash: 625c4021beba360662127d8ed4f929bb866dc9d6
+              body: |
+                This setting is moved from a device repository so it is common.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-5.1.47
+          title: ""
+          date: 2024-03-03T20:18:56.488Z
+        - commits:
+            - subject: "resin_update_state_probe: ignore RAID members when looking for root"
+              hash: e984b21b0270729784735d99f222294be65afd20
+              body: >
+                At this moment resin_update_state_probe looks for the root
+                partition
+
+                by UUID and assumes that only a single device is returned. This
+
+                assumption breaks when the root is on a MD RAID1 device as not
+                only
+
+                the virtual MD device holds a filesystem with the given UUID,
+
+                each member does as well.
+
+
+                This patch makes resin_update_state_probe ignore devices
+
+                that are RAID members which in that case will only return
+
+                the MD device as expected.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-5.1.46
+          title: ""
+          date: 2024-03-02T01:20:54.562Z
+  version: 5.1.51
+  title: ""
+  date: 2024-03-09T01:36:39.318Z
+- commits:
     - subject: Update contracts to f3ba2eee92e77c5a595bf22ffbeaa9164683ff1b
       hash: 341847b3205e2f6e47405898c598a2a43ba4d37c
       body: Update contracts
