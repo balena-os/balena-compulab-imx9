@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update contracts to 2de35264348458938cf5c85c28660a58a1e8066a
+      hash: e4c5a97d3c6174b09111b453064114a64238908d
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 2de35264348458938cf5c85c28660a58a1e8066a
+        changelog-entry: Update contracts to 2de35264348458938cf5c85c28660a58a1e8066a
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "hw.device-type: Add beagleplay device"
+              hash: 409c34db01a2bb6db66b82d8a1af2abed7f9f200
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Sidd-Gupta sidd.gupta@zylum.in
+                signed-off-by: Sidd-Gupta sidd.gupta@zylum.in
+              author: delhiryder
+          version: contracts-2.0.97
+          title: ""
+          date: 2024-03-21T07:50:18.202Z
+  version: 5.2.2+rev3
+  title: ""
+  date: 2024-03-21T13:25:07.403Z
+- commits:
     - subject: Update balena-yocto-scripts to 775e16968edc4c3803834bc524687ae4316ab6e4
       hash: 14624f6b81c9d524126fae525705ceef6fce4690
       body: Update balena-yocto-scripts
