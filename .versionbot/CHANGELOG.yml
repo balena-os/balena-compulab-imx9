@@ -1,4 +1,39 @@
 - commits:
+    - subject: Update layers/meta-balena to f212a46b75701da1ad174eaca183c5b9f55075ec
+      hash: 9f50bc721fd956cca805a25f213c08bc68416f7b
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to f212a46b75701da1ad174eaca183c5b9f55075ec
+        changelog-entry: Update layers/meta-balena to f212a46b75701da1ad174eaca183c5b9f55075ec
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "contributing-device-support.md: Rework repo transfer and autokit
+                requirement steps"
+              hash: d9b9d5e0f084ab9370ff69468f8a14b25148fb47
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-5.3.2
+          title: ""
+          date: 2024-04-25T00:38:23.057Z
+    - subject: Update balena-yocto-scripts to 45b33b1ab2a550bd8292e61139c7e1316d75219c
+      hash: 52454bd16a9c32717bcb9c18c7d2a92f021534b0
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 45b33b1ab2a550bd8292e61139c7e1316d75219c
+        changelog-entry: Update balena-yocto-scripts to 45b33b1ab2a550bd8292e61139c7e1316d75219c
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 5.3.2
+  title: ""
+  date: 2024-04-25T12:38:32.202Z
+- commits:
     - subject: Update layers/meta-balena to 2e58bc5bb95af8ab7f27a3943ebb34761424445c
       hash: d09e251951f6fdb5b94d9c95855c521ad412eb10
       body: Update layers/meta-balena

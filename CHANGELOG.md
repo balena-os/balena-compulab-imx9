@@ -1,6 +1,23 @@
 Change log
 -----------
 
+# v5.3.2
+## (2024-04-25)
+
+
+<details>
+<summary> Update layers/meta-balena to f212a46b75701da1ad174eaca183c5b9f55075ec [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.3.2
+> ### (2024-04-25)
+> 
+> * contributing-device-support.md: Rework repo transfer and autokit requirement steps [Florin Sarbu]
+> 
+
+</details>
+
+* Update balena-yocto-scripts to 45b33b1ab2a550bd8292e61139c7e1316d75219c [Self-hosted Renovate Bot]
+
 # v5.3.1
 ## (2024-04-25)
 
