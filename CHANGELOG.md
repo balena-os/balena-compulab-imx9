@@ -1,6 +1,26 @@
 Change log
 -----------
 
+# v5.3.21
+## (2024-06-13)
+
+
+<details>
+<summary> Update layers/meta-balena to cacc9bcb2b67a9f37654ca8500c96c833f741762 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.3.21
+> ### (2024-06-13)
+> 
+> * initrdscripts: Allow passing extra kernel arguments to kexec [Michal Toman]
+> 
+> ## meta-balena-5.3.20
+> ### (2024-06-11)
+> 
+> * hostapp-update-hooks: Re-add check for UEFI to signed-update hook [Michal Toman]
+> 
+
+</details>
+
 # v5.3.19+rev1
 ## (2024-06-11)
 
