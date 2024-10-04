@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add GHA Built Test Deploy workflows
+      hash: b52df9f2d3abdaedd1d20b4922c99916f03364a3
+      body: ""
+      footer:
+        Changelog-entry: Add GHA Built Test Deploy workflows
+        changelog-entry: Add GHA Built Test Deploy workflows
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 6.0.36
+  title: ""
+  date: 2024-10-04T09:02:47.661Z
+- commits:
     - subject: Update balena-yocto-scripts to 7e492de8e573786e21bb2dc14c7d2af89f6b1d54
       hash: 75a24b5674268a1f2b9be324ec44d733e09c9fb3
       body: Update balena-yocto-scripts

@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v6.0.36
+## (2024-10-04)
+
+* Add GHA Built Test Deploy workflows [Vipul Gupta (@vipulgupta2048)]
+
 # v5.3.24+rev1
 ## (2024-07-05)
 
