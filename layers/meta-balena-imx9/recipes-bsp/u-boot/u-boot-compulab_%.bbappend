@@ -19,6 +19,13 @@ BALENA_UBOOT_DEVICE_TYPES = "usb mmc"
 # revision is used by which balenaOS release
 SRCREV="34382c7df25560904a521d3f62bf5768899c55a2"
 
+# WORKAROUND for unblocking builds, because the
+# old upstream branch has been renamed.
+# This board may need a BSP update after the upstream issue
+# https://github.com/compulab-yokneam/u-boot-compulab/issues/6
+# is clarified
+SRCBRANCH = "to-be-removed/u-boot-compulab_v2022.04"
+
 # Bring in configure step from poky
 # to make sure the merge_config script is called
 # appropriately, otherwise the build will fail
