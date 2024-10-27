@@ -1,6 +1,26 @@
 Change log
 -----------
 
+# v6.0.50
+## (2024-10-27)
+
+
+<details>
+<summary> Update layers/meta-balena to bbfe78062182eaacc9a524383144a24b731a7372 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.0.50
+> ### (2024-10-26)
+> 
+> * tests: secureboot: add test to ensure partition integrity [Joseph Kogut]
+> 
+> ## meta-balena-6.0.49
+> ### (2024-10-25)
+> 
+> * tests/os: Add Jetson Orin device-specific fan and power mode smoke tests [Alexandru Costache]
+> 
+
+</details>
+
 # v6.0.48
 ## (2024-10-24)
 
