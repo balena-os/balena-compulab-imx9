@@ -1,5 +1,20 @@
 - commits:
     - subject: Update layers/meta-compulab-bsp to
+        3a9724ca2f7d3a55cef3a648b814c5b26bd18c86
+      hash: 9e1d111bfa81714d125304dc4b43fb28c0de552a
+      body: Update layers/meta-compulab-bsp
+      footer:
+        Changelog-entry: Update layers/meta-compulab-bsp to
+          3a9724ca2f7d3a55cef3a648b814c5b26bd18c86
+        changelog-entry: Update layers/meta-compulab-bsp to
+          3a9724ca2f7d3a55cef3a648b814c5b26bd18c86
+      author: balena-renovate[bot]
+      nested: []
+  version: 6.0.50+rev6
+  title: ""
+  date: 2024-11-20T01:05:28.787Z
+- commits:
+    - subject: Update layers/meta-compulab-bsp to
         34acd58fb1ca56f4b68a3c424b885e81804bdbd8
       hash: 684053ce24cf77b24430d310006cc6939ed7971d
       body: Update layers/meta-compulab-bsp
@@ -137,11 +152,8 @@
         - commits:
             - subject: "hw.device-type: Update provisioning instructions for AGX Orin 64GB"
               hash: f8d665f044ea2e39a100fb865ffd5f8a8f4ae65f
-              body: >
-                The AGX Orin 64GB should be provisioned on the eMMC by default
-                as per the internal thread
-                https://balena.zulipchat.com/#narrow/stream/346009-aspect.2Fcustomer-success/topic/Get.20feedback.20on.20draft.20balenaOS.20with.20L4T.2036.2E3.20for.20Jetson.20Orin/near/455889690
-
+              body: |
+                The AGX Orin 64GB should be provisioned on the eMMC by default as per the internal thread https://balena.zulipchat.com/#narrow/stream/346009-aspect.2Fcustomer-success/topic/Get.20feedback.20on.20draft.20balenaOS.20with.20L4T.2036.2E3.20for.20Jetson.20Orin/near/455889690
 
                 We thus update the provisioning instructions accordingly
               footer:
@@ -1754,14 +1766,8 @@
               nested: []
             - subject: unroll balena_api_is_dt_private function
               hash: cc3102dbb1348ee563b08dfd3afd37daaa0404ca
-              body: >
-                when building + deploying or a private DT , the check to see if
-                the DT is private fails. This is due to
-                https://github.com/balena-os/balena-yocto-scripts/blob/master/automation/include/balena-api.inc#L424
-                using this function:
-                https://github.com/balena-os/balena-yocto-scripts/blob/master/automation/include/balena-lib.inc#L191
-                - which uses the jenkins deployTo variable to select the correct
-                api url and token.
+              body: |
+                when building + deploying or a private DT , the check to see if the DT is private fails. This is due to https://github.com/balena-os/balena-yocto-scripts/blob/master/automation/include/balena-api.inc#L424 using this function: https://github.com/balena-os/balena-yocto-scripts/blob/master/automation/include/balena-lib.inc#L191 - which uses the jenkins deployTo variable to select the correct api url and token.
               footer:
                 Change-type: patch
                 change-type: patch
@@ -4994,15 +5000,11 @@
               nested: []
             - subject: "os-helpers-tpm2: specify TCTI backend"
               hash: c4eb9d7f6ad412bd74d77ece0e534c8dd2dd6fac
-              body: >
-                Specify the TCTI backend [0], which also silences error messages
-                from
-
+              body: |
+                Specify the TCTI backend [0], which also silences error messages from
                 trying unsupported backends
 
-
-                [0]
-                https://github.com/tpm2-software/tpm2-tools/blob/master/man/common/tcti.md
+                [0] https://github.com/tpm2-software/tpm2-tools/blob/master/man/common/tcti.md
               footer:
                 Change-type: patch
                 change-type: patch
@@ -5592,38 +5594,21 @@
               nested: []
             - subject: "os-helpers: compute_pcr7: merge event log digests"
               hash: e10d67084621e5ce10f14557f2466e91ff684b41
-              body: >
+              body: |
                 The main variables measured into PCR7 to ensure secure boot
-
-                configuration integrity are the state and EFI vars, including
-                PK, KEK,
-
+                configuration integrity are the state and EFI vars, including PK, KEK,
                 db, dbx, etc.
 
-
-                However, some systems have firmware that will measure other,
-                unexpected
-
-                events, such as "DMA Protection Disabled" (related to a Windows
-                feature
-
+                However, some systems have firmware that will measure other, unexpected
+                events, such as "DMA Protection Disabled" (related to a Windows feature
                 [0]), or "Unknown event type" with strange data.
 
-
-                These events can't be predicted, and other devices may have
-                different
-
-                measured events that aren't compliant with the TCG spec, so
-                attempt to
-
-                check the TPM event log and extend our digest with any unknown
-                events
-
+                These events can't be predicted, and other devices may have different
+                measured events that aren't compliant with the TCG spec, so attempt to
+                check the TPM event log and extend our digest with any unknown events
                 that fit the bill.
 
-
-                [0]
-                https://learn.microsoft.com/en-us/windows/security/hardware-security/kernel-dma-protection-for-thunderbolt
+                [0] https://learn.microsoft.com/en-us/windows/security/hardware-security/kernel-dma-protection-for-thunderbolt
               footer:
                 Change-type: patch
                 change-type: patch
@@ -6233,15 +6218,9 @@
                 - commits:
                     - subject: Remove dependency on @balena/happy-eyeballs
                       hash: 08727ed2b5f67c55b2469d3ee5c5e2857119521b
-                      body: >
-                        Node 20 now implements the happy eyeballs algorithm as
-                        part of its core
-
-                        `net` module, with the
-                        [autoSelectFamily](https://nodejs.org/docs/latest-v20.x/api/net.html#netgetdefaultautoselectfamily)
-                        option of `socket.connect`. This option defaults to
-                        `true`, meaning that a separate
-
+                      body: |
+                        Node 20 now implements the happy eyeballs algorithm as part of its core
+                        `net` module, with the [autoSelectFamily](https://nodejs.org/docs/latest-v20.x/api/net.html#netgetdefaultautoselectfamily) option of `socket.connect`. This option defaults to `true`, meaning that a separate
                         implementation of happy eyeballs is no longer needed.
                       footer:
                         Change-type: patch
@@ -6605,15 +6584,10 @@
             - subject: "resin-init-flasher: Allow building images for non-flasher devices that
                 have internal storage"
               hash: 3a887512b343b80208196f6792a48f81d1a8c8f9
-              body: >
-                As per the internal thread:
-                https://balena.zulipchat.com/#narrow/stream/360838-balena-io.2Fos.2Fdevices/topic/balena-raspberrypi.20jenkins.20build.20failures/near/423970246
+              body: |
+                As per the internal thread: https://balena.zulipchat.com/#narrow/stream/360838-balena-io.2Fos.2Fdevices/topic/balena-raspberrypi.20jenkins.20build.20failures/near/423970246
 
-
-                Currently devices with on-board storage fail to build in
-                jenkins, if they don't provide a flasher image. One example is
-                the CM4. Since there are multiple devices using this
-                configuration, let's re-enable builds for all of them.
+                Currently devices with on-board storage fail to build in jenkins, if they don't provide a flasher image. One example is the CM4. Since there are multiple devices using this configuration, let's re-enable builds for all of them.
               footer:
                 Change-type: patch
                 change-type: patch
@@ -6692,17 +6666,10 @@
                 - commits:
                     - subject: Fix support for rsync deltas
                       hash: 24e222045ac511cd4fbb3be66e57eb678a29d854
-                      body: >
-                        Rsync (v2) deltas have been broken since [Supervisor
-                        v14](https://github.com/balena-os/balena-supervisor/commit/460c3ba0aab31d18a02e3f5dda1838691768c494).
-                        While considered legacy,
-
-                        they are still used by a few customers with devices
-                        running OS < 2.47.1.
-
-                        This should fix v2 delta support for those devices until
-                        we can
-
+                      body: |
+                        Rsync (v2) deltas have been broken since [Supervisor v14](https://github.com/balena-os/balena-supervisor/commit/460c3ba0aab31d18a02e3f5dda1838691768c494). While considered legacy,
+                        they are still used by a few customers with devices running OS < 2.47.1.
+                        This should fix v2 delta support for those devices until we can
                         completely remove rsync deltas from the supervisor
                       footer:
                         Change-type: patch
@@ -6777,39 +6744,19 @@
                 - commits:
                     - subject: Add special case for base DTO params on RPI config
                       hash: 6e6a796da5ecc846248eae4c8495bc626964c038
-                      body: >
-                        While ordering is important in the RPI firmware
-                        configuration file (config.txt),
-
-                        some dt params are by default considered part of the
-                        base dt overlay
-
+                      body: |
+                        While ordering is important in the RPI firmware configuration file (config.txt),
+                        some dt params are by default considered part of the base dt overlay
                         if they are not used by other overlays.
-
-                        Unfortunately the [list of
-                        dtparams](https://github.com/raspberrypi/firmware/blob/master/boot/overlays/README#L133)
-
-                        is too long to add all of them as exceptions, but we can
-                        add the params
-
-                        used in the default config.txt provided in OS images, to
-                        avoid reboots
-
-                        when updating to this new supervisor and correctly
-                        parsing the
-
+                        Unfortunately the [list of dtparams](https://github.com/raspberrypi/firmware/blob/master/boot/overlays/README#L133)
+                        is too long to add all of them as exceptions, but we can add the params
+                        used in the default config.txt provided in OS images, to avoid reboots
+                        when updating to this new supervisor and correctly parsing the
                         provisioning config.txt as variables.
 
-
-                        While this addition handles most common scenarios, there
-                        is still a
-
-                        chance a user may have use other base overlay dt params
-                        in the initial
-
-                        config, in which case those will be interpreted
-                        according to the
-
+                        While this addition handles most common scenarios, there is still a
+                        chance a user may have use other base overlay dt params in the initial
+                        config, in which case those will be interpreted according to the
                         relative ordering
                       footer:
                         Change-type: patch
@@ -7082,9 +7029,8 @@
         - commits:
             - subject: "automation/balena-deploy: Pin to known working version of balena-img"
               hash: 927310397896f35bd1921202e8b1f30ba3ef47d8
-              body: >
-                As per internal thread
-                https://balena.zulipchat.com/#narrow/stream/345890-balena-io/topic/Jenkins.20build.20failures/near/409602914
+              body: |
+                As per internal thread https://balena.zulipchat.com/#narrow/stream/345890-balena-io/topic/Jenkins.20build.20failures/near/409602914
               footer:
                 Change-type: patch
                 change-type: patch
@@ -10012,15 +9958,11 @@
         - commits:
             - subject: 'Revert "kernel-balena: Remove apparmor support"'
               hash: ddc94ae58072323cf94ac39d6c2d16c78ff794d8
-              body: >
-                This is no longer needed after the balena_os/balena-engine
-                commit:
-
+              body: |
+                This is no longer needed after the balena_os/balena-engine commit:
                 https://github.com/balena-os/balena-engine/commit/ed8ba18e8776a7bf37b3326baeca8196b4ea76b0
 
-
                 released in balena-engine v20.10.39
-
 
                 This reverts commit 18cd233a83554b58b3540164afd768fdeda60b03.
               footer:
@@ -10118,9 +10060,8 @@
       nested: []
     - subject: "layers/meta-bsp-imx9: Add compulab imx9 bsp layer"
       hash: 896a3278b51c8cb0bee66db25ac753b8e2715f6e
-      body: >
-        as per the revision set in
-        raw.githubusercontent.com/compulab-yokneam/meta-bsp-imx9/kirkstone-2.2.0/scripts/meta-bsp-imx9.xml
+      body: |
+        as per the revision set in raw.githubusercontent.com/compulab-yokneam/meta-bsp-imx9/kirkstone-2.2.0/scripts/meta-bsp-imx9.xml
       footer:
         Changelog-entry: "layers/meta-bsp-imx9: Add compulab imx9 bsp layer"
         changelog-entry: "layers/meta-bsp-imx9: Add compulab imx9 bsp layer"
