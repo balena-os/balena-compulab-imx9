@@ -1,4 +1,53 @@
 - commits:
+    - subject: Update contracts to 9ce0ad766c4f9b46cd78462813ff01600a61cde5
+      hash: b2322feb36775746fcbecd1570fcdca6a9ce9d27
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 9ce0ad766c4f9b46cd78462813ff01600a61cde5
+        changelog-entry: Update contracts to 9ce0ad766c4f9b46cd78462813ff01600a61cde5
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "contracts/hw.device-type: Update instructions for Orin flasher types"
+              hash: 79b1757276a189f0b898903f5d85658e0b5c478a
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+          version: contracts-2.0.119
+          title: ""
+          date: 2024-12-16T04:57:49.690Z
+        - commits:
+            - subject: "hw.device-type: update logo for nitrogen8M Mini"
+              hash: 3da872b57b5e5ff700410e0ceda9ac5bdac208e7
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Jonathan Berger
+          version: contracts-2.0.118
+          title: ""
+          date: 2024-12-04T16:14:00.912Z
+        - commits:
+            - subject: "hw.device-type: Rename Seeed J3010 and J4012 to include module name"
+              hash: f803589c9885fb0d8cee7d9c674ec6bde235e7af
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+          version: contracts-2.0.117
+          title: ""
+          date: 2024-11-25T15:38:04.848Z
+  version: 6.0.50+rev11
+  title: ""
+  date: 2024-12-16T11:10:23.107Z
+- commits:
     - subject: Update balena-yocto-scripts to cece7bfab266136d81db610c3b22dae221ee7682
       hash: e7cb08475acb25d40d6e44d7bcec1e7075000905
       body: Update balena-yocto-scripts
