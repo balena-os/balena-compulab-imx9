@@ -1,4 +1,260 @@
 - commits:
+    - subject: Update layers/meta-balena to d3c866fcafc664f0ac2d3dfeaf97c21d58ced86a
+      hash: 9d85f36ce78ef0894b4f1b4a8f8fdfb2b1784dbe
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to d3c866fcafc664f0ac2d3dfeaf97c21d58ced86a
+        changelog-entry: Update layers/meta-balena to d3c866fcafc664f0ac2d3dfeaf97c21d58ced86a
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to 25370da
+              hash: 0d1300383c19f479b47fd6ce8d14ec03cb9b1ab4
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested:
+                - commits:
+                    - subject: Update actions/upload-artifact digest to 65c4c4a
+                      hash: 41ecb3c5112bc5b2b6d8e63dabb05fbf558c9df1
+                      body: |
+                        Update actions/upload-artifact
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: balena-renovate[bot]
+                      nested: []
+                  version: leviathan-2.31.87
+                  title: ""
+                  date: 2025-01-26T14:28:56.808Z
+                - commits:
+                    - subject: Fix extractVersion renovate template
+                      hash: fc005a800f77b29dae553ef38d45ef705a011dbf
+                      body: ""
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Kyle Harding
+                      nested: []
+                  version: leviathan-2.31.86
+                  title: ""
+                  date: 2025-01-26T12:57:09.462Z
+                - commits:
+                    - subject: Update core/contracts digest to cde8b88
+                      hash: 4aad7b4af4fed4fc54ceb874330c0e8b2a86b70e
+                      body: |
+                        Update core/contracts
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: balena-renovate[bot]
+                      nested: []
+                  version: leviathan-2.31.85
+                  title: ""
+                  date: 2025-01-24T18:32:12.098Z
+                - commits:
+                    - subject: "lib/components: Add partition index for Jetson TX2 NX types"
+                      hash: 3db19db2746a55855b6601f37f791f5d7e6e5487
+                      body: ""
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                        signed-off-by: Alexandru Costache <alexandru@balena.io>
+                      author: Alexandru Costache
+                      nested: []
+                  version: leviathan-2.31.84
+                  title: ""
+                  date: 2025-01-23T08:13:42.965Z
+          version: meta-balena-6.3.10
+          title: ""
+          date: 2025-01-27T16:33:22.765Z
+        - commits:
+            - subject: "workflows: iot-gate-imx8plus: add custom template path"
+              hash: 0aa5664c4edba93084e81c184119b1fc7a31fbc8
+              body: |
+                A custom template path has originally been added in
+                https://github.com/balena-os/meta-balena/pull/3599
+                for the iot-gate-imx8. The iot-gate-imx8plus needs
+                one as well because it's now using the meta-balena-hab
+                submodule.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-6.3.9
+          title: ""
+          date: 2025-01-27T09:32:28.028Z
+        - commits:
+            - subject: "resin-init-flasher: add openssl dependency"
+              hash: 49b2d8635d5c4837f651f16f97fae18bda50a3c1
+              body: >
+                This is required for openssl to be available on the initramfs so
+                that
+
+                migration can use it.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "initrdscript: copy image signature to memory if required"
+              hash: 6963166ed83138d15f39a7efd54beb2a6088febe
+              body: >
+                For migration to work on signed images, the signature needs to
+                be
+
+                available in memory.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-6.3.8
+          title: ""
+          date: 2025-01-22T16:04:48.428Z
+        - commits:
+            - subject: Update tests/leviathan digest to 03a7057
+              hash: c7785c82e087b501b9cea7ee66f696af043c0755
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested:
+                - commits:
+                    - subject: Update balena-io/balena-cli to v20.2.1
+                      hash: 247459b21aa26c329a474677c47d504b5b62fb2a
+                      body: |
+                        Update balena-io/balena-cli from 20.1.6 to 20.2.1
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: balena-renovate[bot]
+                      nested: []
+                  version: leviathan-2.31.83
+                  title: ""
+                  date: 2025-01-09T14:36:41.373Z
+                - commits:
+                    - subject: "patch: Add retention & compression to Leviathan action artifacts"
+                      hash: 00573208b857067c1471dcaaac6d77e7bcc4754e
+                      body: ""
+                      footer: {}
+                      author: Vipul Gupta
+                      nested: []
+                  version: leviathan-2.31.82
+                  title: ""
+                  date: 2025-01-09T14:06:23.177Z
+          version: meta-balena-6.3.7
+          title: ""
+          date: 2025-01-20T22:06:50.879Z
+        - commits:
+            - subject: "images: balena-image*: Set balenaos-img.sig image type for signed
+                builds"
+              hash: c7c2fb62abbda3008e73e9ef72d771fb7a43498f
+              body: |
+                This triggers the signing of images for secure boot builds.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "classes: balenaos-img.sig: Rename the sign image type to
+                balenaos-img.sig"
+              hash: e283eb7898ee8f0b5f3df50e6dcb747da1def443
+              body: >
+                This creates the symlinks and images with the expected
+                extensions.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "image_types_balena.bbclass: Move image signing code here"
+              hash: c3fc5563a54c3e5c35b7cab02bc4e2ef74c6fa64
+              body: |
+                This fixes the following error:
+
+                cp: cannot stat '/work/build/tmp/deploy/images/generic-amd64/balena-image-generic-amd64.balenaos-img.sig': No such file or directory
+
+                The signed image symlink is not generated before the flasher needs it so we avoid this dependency issue by
+                defining a new image type for which the build system will automatically create the appropriate symlink.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.3.6
+          title: ""
+          date: 2025-01-17T03:52:47.961Z
+        - commits:
+            - subject: "classes/kernel-balena: Avoid re-building kernel modules when not
+                signed"
+              hash: 729490be46acc63b00d842dd8174ad0f03e5e55f
+              body: >
+                Setting the nostamp flag to any value, even if it is an empty
+                string, causes
+
+                the kernel modules to be rebuilt, which is contrary to the
+
+                documentation:
+                https://lists.openembedded.org/g/bitbake-devel/message/12359
+
+
+                Let's avoid setting it altogether on kernels which are not
+                signed,
+
+                to speed up builds.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-6.3.5
+          title: ""
+          date: 2025-01-16T19:38:46.906Z
+        - commits:
+            - subject: "workflows: iot-gate-imx8: add custom template path"
+              hash: f206ad55df30f4939cbd2498fd6494aa8d05c60b
+              body: >
+                With the addition of the meta-balena-hab submodule there are
+                multiple
+
+                balena layers with custom templates - specify which one to use
+                to avoid
+
+                a build error.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-6.3.4
+          title: ""
+          date: 2025-01-16T16:14:51.120Z
+  version: 6.3.10
+  title: ""
+  date: 2025-01-27T20:00:32.933Z
+- commits:
     - subject: Update contracts to cde8b8829cc36e1b98fe4a93eef5c901fc6e62c2
       hash: d57c0ccb44ce776814e10f8fbbee0f7310a45bd5
       body: Update contracts

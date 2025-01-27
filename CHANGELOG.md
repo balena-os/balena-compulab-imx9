@@ -1,6 +1,96 @@
 Change log
 -----------
 
+# v6.3.10
+## (2025-01-27)
+
+
+<details>
+<summary> Update layers/meta-balena to d3c866fcafc664f0ac2d3dfeaf97c21d58ced86a [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.3.10
+> ### (2025-01-27)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 25370da [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.31.87
+>> #### (2025-01-26)
+>> 
+>> * Update actions/upload-artifact digest to 65c4c4a [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.31.86
+>> #### (2025-01-26)
+>> 
+>> * Fix extractVersion renovate template [Kyle Harding]
+>> 
+>> ### leviathan-2.31.85
+>> #### (2025-01-24)
+>> 
+>> * Update core/contracts digest to cde8b88 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.31.84
+>> #### (2025-01-23)
+>> 
+>> * lib/components: Add partition index for Jetson TX2 NX types [Alexandru Costache]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.3.9
+> ### (2025-01-27)
+> 
+> * workflows: iot-gate-imx8plus: add custom template path [Alexandru Costache]
+> 
+> ## meta-balena-6.3.8
+> ### (2025-01-22)
+> 
+> * resin-init-flasher: add openssl dependency [Alex Gonzalez]
+> * initrdscript: copy image signature to memory if required [Alex Gonzalez]
+> 
+> ## meta-balena-6.3.7
+> ### (2025-01-20)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 03a7057 [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.31.83
+>> #### (2025-01-09)
+>> 
+>> * Update balena-io/balena-cli to v20.2.1 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.31.82
+>> #### (2025-01-09)
+>> 
+>> * patch: Add retention & compression to Leviathan action artifacts [Vipul Gupta]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.3.6
+> ### (2025-01-17)
+> 
+> * images: balena-image*: Set balenaos-img.sig image type for signed builds [Alex Gonzalez]
+> * classes: balenaos-img.sig: Rename the sign image type to balenaos-img.sig [Alex Gonzalez]
+> * image_types_balena.bbclass: Move image signing code here [Florin Sarbu]
+> 
+> ## meta-balena-6.3.5
+> ### (2025-01-16)
+> 
+> * classes/kernel-balena: Avoid re-building kernel modules when not signed [Alexandru Costache]
+> 
+> ## meta-balena-6.3.4
+> ### (2025-01-16)
+> 
+> * workflows: iot-gate-imx8: add custom template path [Alex Gonzalez]
+> 
+
+</details>
+
 # v6.3.3+rev2
 ## (2025-01-20)
 
