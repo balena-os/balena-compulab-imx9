@@ -1,4 +1,93 @@
 - commits:
+    - subject: Update layers/meta-balena to 12c56bcfd6d3dbae81fafa8e3eb3641be575e7c0
+      hash: 772b4ace97c8b27befde75b2075adfb3d3e8a104
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 12c56bcfd6d3dbae81fafa8e3eb3641be575e7c0
+        changelog-entry: Update layers/meta-balena to 12c56bcfd6d3dbae81fafa8e3eb3641be575e7c0
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "modemmanager: patch for Cinterion port types"
+              hash: 6cd7bdcef2405b836975d2a06cdd83cbb5177499
+              body: >
+                Patch with changes in udev rules for ALAS5 for proper support of
+                port types
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Kirill Zabelin
+              nested: []
+          version: meta-balena-6.3.23
+          title: ""
+          date: 2025-02-25T10:26:55.368Z
+        - commits:
+            - subject: "kernel-devsrc.bb: Use recipe from Poky for 6.12+ kernels"
+              hash: 1eb52a251cfd48d32a4dce2ee01b54e791d7b4ea
+              body: >
+                This is taken from Poky rev
+                ae8fe5b896a1f6bd0740d1fa6638b9d9377a8d28 in master.
+
+
+                It is required for being able to compile kernel modules for
+                6.12+ kernels.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.3.22
+          title: ""
+          date: 2025-02-24T09:34:34.666Z
+        - commits:
+            - subject: "kernel-balena.bbclass: Add aufs patches for 6.12 kernels"
+              hash: 21469a4d0fb4ddf15d17ec1cff3687329abea018
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.3.21
+          title: ""
+          date: 2025-02-21T20:03:08.166Z
+        - commits:
+            - subject: "resin-mounts: only run non-encrypted mount if partition exists"
+              hash: 8af007811087416a98826d138d6e654941d9716c
+              body: >
+                When signed images are used without opting in secure boot, we
+                don't want
+
+                the encrypted mount service to run and fail as there is no
+                encrypted
+
+                boot partition.
+
+
+                This commit adds a condition to the encrypted boot mount service
+                to only
+
+                run if the encrypted boot partition exists, similarly to what is
+
+                already done for EFI builds.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-6.3.20
+          title: ""
+          date: 2025-02-18T17:33:52.196Z
+  version: 6.3.23
+  title: ""
+  date: 2025-02-25T16:14:05.976Z
+- commits:
     - subject: Update balena-yocto-scripts to 4246a1c0e1440417020de05f51e05941d6a83900
       hash: e9211440297e1b0406a8ae12c52c42d328d48768
       body: Update balena-yocto-scripts
