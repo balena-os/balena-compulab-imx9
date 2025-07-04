@@ -25,3 +25,7 @@
 [submodule "contracts"]
 	path = contracts
 	url = https://github.com/balena-io/contracts.git
+[submodule "layers/meta-cyclonedx"]
+	path = layers/meta-cyclonedx
+	url = https://github.com/balena-os/meta-cyclonedx
+	branch = kirkstone
