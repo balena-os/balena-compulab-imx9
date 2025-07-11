@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v6.5.43
+## (2025-07-11)
+
+* layers/meta-balena: Update to v6.5.43 [Alexandru Costache]
+* linux-compulab: Fix unpackaged files [Alexandru Costache]
+
 # v6.3.23+rev2
 ## (2025-02-26)
 

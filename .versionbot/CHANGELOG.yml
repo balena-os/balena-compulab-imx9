@@ -1,4 +1,28 @@
 - commits:
+    - subject: "layers/meta-balena: Update to v6.5.43"
+      hash: 8f283523c1786d9ac7eb5914768855179689e930
+      body: ""
+      footer:
+        Changelog-entry: "layers/meta-balena: Update to v6.5.43"
+        changelog-entry: "layers/meta-balena: Update to v6.5.43"
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+      nested: []
+    - subject: "linux-compulab: Fix unpackaged files"
+      hash: 6fd7b264248b8da07559883bbff970f8ab23e5a7
+      body: ""
+      footer:
+        Changelog-entry: "linux-compulab: Fix unpackaged files"
+        changelog-entry: "linux-compulab: Fix unpackaged files"
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+      nested: []
+  version: 6.5.43
+  title: ""
+  date: 2025-07-11T12:17:10.596Z
+- commits:
     - subject: Update layers/meta-compulab-bsp to
         18ad7cc27ad2dc461e5fd2e04ac51c0c9df7354e
       hash: 2231c3f41aa69cfe3108c724c2e82e08e8ce8fce
