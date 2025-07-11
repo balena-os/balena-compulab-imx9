@@ -55,4 +55,6 @@ BALENA_CONFIGS[imx] = " \
 # Fixes module loading
 SCMVERSION="n"
 
+FILES:${KERNEL_PACKAGE_NAME}-modules = "${nonarch_base_libdir}/modules/ /etc/"
+
 # Other considerations: the reference sd-card image is using the older kernel revision at aa2ec039c837
