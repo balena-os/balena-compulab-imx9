@@ -1,4 +1,42 @@
 - commits:
+    - subject: Update layers/meta-balena to 9462ad02ceb4ee6ecdbe08d59e870f2531a5b2f7
+      hash: 2618be9a0f30c9cc29b40c50871d9925cd37a4ec
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 9462ad02ceb4ee6ecdbe08d59e870f2531a5b2f7
+        changelog-entry: Update layers/meta-balena to 9462ad02ceb4ee6ecdbe08d59e870f2531a5b2f7
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "kernel-balena.bbclass: Remove references to disabling
+                CONFIG_RTL8192CU"
+              hash: 341e9982c25cf7ef902e3a93eb28f5bead090605
+              body: >
+                This commit is a continuation of
+                e3b7a1555542e6b1381f1a5f7131b935d1f66f22
+
+
+                Devices that need a driver for RTL8192 based chipsets should
+                enable the
+
+                in-tree CONFIG_RTL8192CU kernel driver which should be stable in
+                newer
+
+                kernel releases.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.5.49
+          title: ""
+          date: 2025-08-11T15:09:39.184Z
+  version: 6.5.49
+  title: ""
+  date: 2025-08-12T00:17:30.154Z
+- commits:
     - subject: Update layers/meta-compulab-bsp to
         d256abf3771e1da34b78a85e6ee922f09ef42517
       hash: f83761605cb9650a9b56f01a24443a58bd14cc3e
