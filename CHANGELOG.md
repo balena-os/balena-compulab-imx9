@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v6.6.6+rev1
+## (2025-09-18)
+
+* workflows: Add workflow call trigger [Ryan Cooke]
+
 # v6.6.6
 ## (2025-09-17)
 
