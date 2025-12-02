@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v6.6.10+rev20
+## (2025-12-02)
+
+* Adjust reboot watchdog timeout to 30 seconds [Florin Sarbu]
+
 # v6.6.10+rev19
 ## (2025-11-25)
 

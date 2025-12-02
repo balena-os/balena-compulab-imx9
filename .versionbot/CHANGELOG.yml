@@ -1,4 +1,33 @@
 - commits:
+    - subject: Adjust reboot watchdog timeout to 30 seconds
+      hash: 8407c41a9ea494dd8c70d506d899422bc2b517f4
+      body: |
+        By default RebootWatchdogSec is set to 10min.
+
+        However, a forced reboot (systemctl reboot -f ) on the UCM imx9 board using the imx7ulp-wdt watchdog driver fails:
+
+        systemd-shutdown[1]: Failed to set timeout to 10min: Invalid argument
+
+        and the OS is unresponsive at that point unless a cold boot is issued.
+
+        We set it to 30 seconds although in theory the watchdog driver seems to support up to 128 seconds:
+        https://github.com/compulab-yokneam/linux-compulab/blob/linux-compulab_v6.6.52/drivers/watchdog/imx7ulp_wdt.c#L43
+
+        By doing so, if a forced reboot is issued and the OS is unresponsive then the hardware watchdog will force it to
+        reboot after the 30 seconds timeout.
+
+        Same issue as https://github.com/balena-os/balena-raspberrypi/commit/dc157ca57779d79b3afcf886bb093703a4adaa37
+      footer:
+        Changelog-entry: Adjust reboot watchdog timeout to 30 seconds
+        changelog-entry: Adjust reboot watchdog timeout to 30 seconds
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 6.6.10+rev20
+  title: ""
+  date: 2025-12-02T08:59:32.229Z
+- commits:
     - subject: Update balena-yocto-scripts to 2b1cf90fb0333b1d8cdb2c3dbf041fd109e563a2
       hash: af18eb5dec329586b6fecf8ece155349db7bead2
       body: Update balena-yocto-scripts
