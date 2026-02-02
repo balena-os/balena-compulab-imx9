@@ -1,6 +1,684 @@
 Change log
 -----------
 
+# v6.10.24
+## (2026-02-02)
+
+
+<details>
+<summary> Update layers/meta-balena to 5ceed2308a1ce8a2e453f0f2890039106c1ee7b0 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.10.24
+> ### (Invalid date)
+> 
+> * extra firmware test fix bbb kernel module [Yann CARDAILLAC]
+> 
+> ## meta-balena-6.10.23
+> ### (2026-01-29)
+> 
+> * Revert "packagegroup-resin: Add systemd-analyze to production images as well" [Kyle Harding]
+> 
+> ## meta-balena-6.10.22
+> ### (2026-01-27)
+> 
+> * tests: Update kernel-module-build submodule [Alexandru Costache]
+> 
+> ## meta-balena-6.10.21
+> ### (2026-01-26)
+> 
+> * classes/kernel-balena: Fix typo in kernel-balena.bbclass [Alexandru Costache]
+> * Fix type allSetConfigs -> allSetKernelConfigs [Christina Ying Wang]
+> 
+> ## meta-balena-6.10.20
+> ### (2026-01-26)
+> 
+> * Update actions/setup-python digest to a309ff8 [balena-renovate[bot]]
+> 
+> ## meta-balena-6.10.19
+> ### (2026-01-23)
+> 
+> * Further reduce the size of the balena bootloader by removing PTP clock support [Florin Sarbu]
+> 
+> ## meta-balena-6.10.18
+> ### (2026-01-21)
+> 
+> * initrdscripts: export IS_ROLLBACK and ROOT_PART flags from abroot script [Michal Toman]
+> * initrdscripts: add extrafw script [Michal Toman]
+> * initrdscripts: separate mounting boot partition from abroot [Michal Toman]
+> 
+> ## meta-balena-6.10.17
+> ### (2026-01-21)
+> 
+> * Update vacuum-size to 128M to match vacuum.conf and journald-balena-os.conf [Chris Sawer]
+> 
+> ## meta-balena-6.10.16
+> ### (2026-01-20)
+> 
+> * os-helpers: safe-reboot: always sync filesystem before reboot [Alex Gonzalez]
+> 
+> ## meta-balena-6.10.15
+> ### (2026-01-12)
+> 
+> * os-helpers/os-helpers-bootloader-config: Add support for whitelisted cmdline args [Alexandru Costache]
+> 
+> ## meta-balena-6.10.14
+> ### (2026-01-09)
+> 
+> * initrdscripts: Unlock mutex if regenerate_uuid fails in fsuuidsinit [Michal Toman]
+> 
+> ## meta-balena-6.10.13
+> ### (2026-01-08)
+> 
+> * tests/extra-firmware: Skip post-reboot extra-firmware check for a specific device [Alexandru Costache]
+> 
+> ## meta-balena-6.10.12
+> ### (2026-01-08)
+> 
+> * Reduce the size of the balena bootloader by removing unused functionality [Florin Sarbu]
+> 
+> ## meta-balena-6.10.11
+> ### (2026-01-07)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v17.4.2 [balena-renovate[bot]] </summary>
+> 
+>> ### balena-supervisor-17.4.2
+>> #### (2026-01-06)
+>> 
+>> * Parse multiple child contracts listed under an `or` clause [Christina Ying Wang]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.10.10
+> ### (2026-01-06)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v17.4.1 [balena-renovate[bot]] </summary>
+> 
+>> ### balena-supervisor-17.4.1
+>> #### (2026-01-05)
+>> 
+>> * backends: Enable configurable power modes and fan profiles for all Jetson Orin devices [Alexandru Costache]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.10.9
+> ### (2026-01-04)
+> 
+> * kernel-balena.bbclass: Enable DMA-BUF memory heaps [Michal Toman]
+> 
+> ## meta-balena-6.10.8
+> ### (2026-01-01)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to c2b518d [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.36.79
+>> #### (2025-12-29)
+>> 
+>> * Update Lock file maintenance [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.78
+>> #### (2025-12-22)
+>> 
+>> * Update Lock file maintenance [balena-renovate[bot]]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.10.7
+> ### (Invalid date)
+> 
+> * add extra firmware tests [Yann CARDAILLAC]
+> * recipes-support/os-extra-firmware: Extract extra-firmware volume data path [Alexandru Costache]
+> 
+> ## meta-balena-6.10.6
+> ### (2025-12-24)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v17.4.0 [balena-renovate[bot]] </summary>
+> 
+>> ### balena-supervisor-17.4.0
+>> #### (2025-12-19)
+>> 
+>> * Support sw.kernel version and slug requirements for container contracts [Christina Ying Wang]
+>> * Support sw.os version and slug requirements for container contracts [Christina Ying Wang]
+>> 
+>> ### balena-supervisor-17.3.6
+>> #### (2025-12-18)
+>> 
+>> * Update systeminformation to v5.27.14 [SECURITY] [balena-renovate[bot]]
+>> 
+>> ### balena-supervisor-17.3.5
+>> #### (2025-12-18)
+>> 
+>> * patch: only apply noop for download-then-kill strategy and fix integration tests [Rob Thein]
+>> * patch: Fix premature locking for metadata-only changes [Rob Thein]
+>> 
+>> ### balena-supervisor-17.3.4
+>> #### (2025-12-18)
+>> 
+>> * Update tsconfig.module to node20 and TS to 5.9.x [felipe]
+>> 
+>> ### balena-supervisor-17.3.3
+>> #### (2025-12-16)
+>> 
+>> * Log errors and warnings to stderr [felipe]
+>> * Revert moduleResolution to node16 [felipe]
+>> 
+>> ### balena-supervisor-17.3.2
+>> #### (2025-12-16)
+>> 
+>> * Update tsconfig targets for node22 [Pagan Gazzard]
+>> 
+>> ### balena-supervisor-17.3.1
+>> #### (2025-12-15)
+>> 
+>> * Remove unused direct dependency on pinejs-client-core [Pagan Gazzard]
+>> 
+>> ### balena-supervisor-17.3.0
+>> #### (2025-12-15)
+>> 
+>> * Purge extra-firmware system volume with purge action [Christina Ying Wang]
+>> * Configure services to use extra-firmware volume if feature label present [Christina Ying Wang]
+>> * Create extra firmware volume on startup and write volume to config.json [Christina Ying Wang]
+>> 
+>> ### balena-supervisor-17.2.5
+>> #### (2025-12-15)
+>> 
+>> * Update lint-staged to v16 [balena-renovate[bot]]
+>> 
+>> ### balena-supervisor-17.2.4
+>> #### (2025-12-15)
+>> 
+>> * Update @types/sinon to v21 [balena-renovate[bot]]
+>> 
+>> ### balena-supervisor-17.2.3
+>> #### (2025-12-15)
+>> 
+>> * Update @balena/compose to v7 [balena-renovate[bot]]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.10.5
+> ### (2025-12-23)
+> 
+> * classes/kernel-balena: Enable support for xz firmware compression [Alexandru]
+> 
+> ## meta-balena-6.10.4
+> ### (2025-12-20)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to c80702b [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.36.77
+>> #### (2025-12-20)
+>> 
+>> * Update docker/setup-buildx-action digest to 8d2750c [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.76
+>> #### (2025-12-19)
+>> 
+>> * Update balena-os/leviathan-worker to v2.10.20 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.75
+>> #### (2025-12-19)
+>> 
+>> * Core: worker: enable configurable flashing timeout [Ryan Cooke]
+>> 
+>> ### leviathan-2.36.74
+>> #### (2025-12-16)
+>> 
+>> * Update balena-os/leviathan-worker to v2.10.18 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.73
+>> #### (2025-12-15)
+>> 
+>> * Update Lock file maintenance [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.72
+>> #### (2025-12-13)
+>> 
+>> * Update actions/upload-artifact action to v6 [balena-renovate[bot]]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.10.3
+> ### (2025-12-15)
+> 
+> * remove disk watchdog logs [Yann CARDAILLAC]
+> 
+> ## meta-balena-6.10.2
+> ### (2025-12-13)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v17.2.2 [balena-renovate[bot]] </summary>
+> 
+>> ### balena-supervisor-17.2.2
+>> #### (2025-12-11)
+>> 
+>> * Improve issue of very early container logs potentially being dropped [Pagan Gazzard]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.10.1
+> ### (2025-12-11)
+> 
+> * balena-os.inc: Enable firmware compression by default [Michal Toman]
+> 
+> ## meta-balena-6.10.0
+> ### (2025-12-11)
+> 
+> * networkmanager: update to 1.52.0 [Michal Toman]
+> 
+> ## meta-balena-6.9.6
+> ### (2025-12-11)
+> 
+> * renovate.json: Remove custom balena-git package rules [Kyle Harding]
+> 
+> ## meta-balena-6.9.5
+> ### (2025-12-10)
+> 
+> * fix initramfs rootfs script wrong indent [Yann CARDAILLAC]
+> 
+> ## meta-balena-6.9.4
+> ### (2025-12-10)
+> 
+> * Update actions/checkout action to v6 [balena-renovate[bot]]
+> 
+> ## meta-balena-6.9.3
+> ### (2025-12-09)
+> 
+> * Update actions/setup-python digest to 83679a8 [balena-renovate[bot]]
+> 
+> ## meta-balena-6.9.2
+> ### (2025-12-08)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 0545105 [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.36.71
+>> #### (2025-12-08)
+>> 
+>> * Update Lock file maintenance [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.70
+>> #### (2025-12-06)
+>> 
+>> * Update actions/checkout digest to 8e8c483 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.69
+>> #### (2025-12-01)
+>> 
+>> * Update balena-os/leviathan-worker to v2.10.17 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.68
+>> #### (2025-12-01)
+>> 
+>> * Update balena-os/leviathan-worker to v2.10.16 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.67
+>> #### (2025-12-01)
+>> 
+>> * Update balena-os/leviathan-worker to v2.10.15 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.66
+>> #### (2025-12-01)
+>> 
+>> * Update Lock file maintenance [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.65
+>> #### (2025-11-22)
+>> 
+>> * Update actions/checkout action to v6 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.64
+>> #### (2025-11-14)
+>> 
+>> * Update balena-io/balena-cli to v22.5.5 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.63
+>> #### (2025-11-11)
+>> 
+>> * Update balena-io/balena-cli to v22.4.17 [balena-renovate[bot]]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.9.1
+> ### (2025-12-08)
+> 
+> * peak: Update to version 8.20.0 [Florin Sarbu]
+> 
+> ## meta-balena-6.9.0
+> ### (2025-12-07)
+> 
+> * Update ModemManager to 1.24.2 [Florin Sarbu]
+> 
+> ## meta-balena-6.8.7
+> ### (2025-12-04)
+> 
+> * linux-firmware: Revert packaging i915 firmware by SoC generations [Florin Sarbu]
+> 
+> ## meta-balena-6.8.6
+> ### (2025-12-04)
+> 
+> * tests: os: secureboot: skip bootloader integrity for imx8mp-var-dart-pl1000pp [Alex Gonzalez]
+> 
+> ## meta-balena-6.8.5
+> ### (2025-12-03)
+> 
+> * recipes-support/os-extra-firmware: Add service for configuring extra fw search path [Alexandru Costache]
+> 
+> ## meta-balena-6.8.4
+> ### (2025-12-03)
+> 
+> * linux-firmware_20240909.bb: Fix packaging amdgpu and various other firmware [Florin Sarbu]
+> 
+> ## meta-balena-6.8.3
+> ### (2025-12-02)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v17.2.1 [balena-renovate[bot]] </summary>
+> 
+>> ### balena-supervisor-17.2.1
+>> #### (2025-11-19)
+>> 
+>> * Fix state engine tests failing with newer version of docker [felipe]
+>> * Await provisioning on error before continuing [felipe]
+>> 
+>> ### balena-supervisor-17.2.0
+>> #### (2025-11-03)
+>> 
+>> * Support io.balena.features.host-os.board-rev feature label [Christina Ying Wang]
+>> 
+>> ### balena-supervisor-17.1.10
+>> #### (Invalid date)
+>> 
+>> * Stream logs from host os-update.service [Christina Ying Wang]
+>> 
+>> ### balena-supervisor-17.1.9
+>> #### (2025-10-18)
+>> 
+>> * Update balena-io/deploy-to-balena-action action to v2.0.136 [balena-renovate[bot]]
+>> 
+>> ### balena-supervisor-17.1.8
+>> #### (2025-10-17)
+>> 
+>> * Do not block calls to dbus reboot/shutdown [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-17.1.7
+>> #### (2025-10-16)
+>> 
+>> * Update deep-object-diff to v1.1.9 [balena-renovate[bot]]
+>> 
+>> ### balena-supervisor-17.1.6
+>> #### (2025-10-16)
+>> 
+>> * Add back python3 distutils with py3-setuptools [Christina Ying Wang]
+>> * Bump dependencies [Christina Ying Wang]
+>> 
+>> ### balena-supervisor-17.1.5
+>> #### (2025-10-16)
+>> 
+>> * fix(2433): Fix redaction of secrets in env variables logging [Tomas Mella]
+>> 
+>> ### balena-supervisor-17.1.4
+>> #### (2025-10-15)
+>> 
+>> * Only publish + finalize arm64 & amd64 for staging [Christina Ying Wang]
+>> 
+>> ### balena-supervisor-17.1.3
+>> #### (2025-09-29)
+>> 
+>> * Clarify that a process should hold a lockfile [Christina Ying Wang]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.8.2
+> ### (2025-12-02)
+> 
+> * usb-modeswitch-data: Fix packaging for merged usr [Florin Sarbu]
+> 
+> ## meta-balena-6.8.1
+> ### (2025-11-27)
+> 
+> * Upgrade linux-firmware from 20230404 to 20240909 [Florin Sarbu]
+> 
+> ## meta-balena-6.8.0
+> ### (2025-11-21)
+> 
+> * balena: disable buildkit and dependencies with no_buildkit tag [Kyle Harding]
+> * balena: Rebase patches onto upstream Moby v20.10.27 [Kyle Harding]
+> * go: Update to 1.22.12 for compatibility with balena v20.10.27 [Kyle Harding]
+> 
+> ## meta-balena-6.7.8
+> ### (2025-11-21)
+> 
+> * os-helpers: generalize get_sector_size [Alex Gonzalez]
+> * tests: secureboot: generalize U-boot binary naming [Alex Gonzalez]
+> 
+> ## meta-balena-6.7.7
+> ### (2025-11-18)
+> 
+> * simplify disk watchdog tests [Yann CARDAILLAC]
+> 
+> ## meta-balena-6.7.6
+> ### (2025-11-13)
+> 
+> * Update actions/setup-python action to v6 [balena-renovate[bot]]
+> 
+> ## meta-balena-6.7.5
+> ### (2025-11-12)
+> 
+> * kernel-balena.bbclass: Enable required CONFIG_CGROUP_BPF [Florin Sarbu]
+> 
+> ## meta-balena-6.7.4
+> ### (2025-11-08)
+> 
+> * add CONFIG_DM_FLAKEY for disk-watchdog testing [Yann CARDAILLAC]
+> 
+> ## meta-balena-6.7.3
+> ### (2025-11-07)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to c549c54 [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.36.62
+>> #### (2025-11-06)
+>> 
+>> * Update balena-os/leviathan-worker to v2.10.14 [balena-renovate[bot]]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.7.2
+> ### (2025-11-07)
+> 
+> * balena-os.inc: Enforce PACKAGE_CLASSES to package_ipk [Florin Sarbu]
+> 
+> ## meta-balena-6.7.1
+> ### (2025-11-06)
+> 
+> * packagegroups/packagegroup-resin-flasher: Set PACKAGE_ARCH [Alexandru Costache]
+> * tests/suites: Use USB relay to toggle boot switch on certain devices [Alexandru Costache]
+> 
+> ## meta-balena-6.7.0
+> ### (2025-11-05)
+> 
+> * add disk-watchdog daemon [Yann CARDAILLAC]
+> 
+> ## meta-balena-6.6.17
+> ### (2025-11-03)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 2a3a310 [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.36.61
+>> #### (2025-11-03)
+>> 
+>> * Update Lock file maintenance [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.60
+>> #### (2025-11-01)
+>> 
+>> * Update balena-os/leviathan-worker to v2.10.12 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.59
+>> #### (Invalid date)
+>> 
+>> * Update balena-io/balena-cli to v22.4.16 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.58
+>> #### (2025-10-27)
+>> 
+>> * Update Lock file maintenance [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.57
+>> #### (2025-10-25)
+>> 
+>> * Update balena-os/leviathan-worker to v2.10.11 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.56
+>> #### (2025-10-25)
+>> 
+>> * Update actions/upload-artifact action to v5 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.55
+>> #### (2025-10-21)
+>> 
+>> * Update balena-io/balena-cli to v22.4.15 [balena-renovate[bot]]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.6.16
+> ### (2025-10-29)
+> 
+> * recipes-support/balena-config-vars: Avoid failure caused by race in cache file creation [Alexandru Costache]
+> 
+> ## meta-balena-6.6.15
+> ### (2025-10-28)
+> 
+> * Remove non-autokit DTs from build list [Ryan Cooke]
+> 
+> ## meta-balena-6.6.14
+> ### (2025-10-20)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 19c382d [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.36.54
+>> #### (2025-10-20)
+>> 
+>> * Update Lock file maintenance [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.53
+>> #### (2025-10-17)
+>> 
+>> * Update balena-io/balena-cli to v22.4.14 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.52
+>> #### (2025-10-14)
+>> 
+>> * Update balena-io/balena-cli to v22.4.13 [balena-renovate[bot]]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.6.13
+> ### (2025-10-16)
+> 
+> * kernel-balena.bbclass: Fix zram failure when setting algorithm [Alexandru]
+> 
+> ## meta-balena-6.6.12
+> ### (2025-10-14)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 8a590d2 [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.36.51
+>> #### (2025-10-13)
+>> 
+>> * Update balena-io/balena-cli to v22.4.12 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.50
+>> #### (2025-10-13)
+>> 
+>> * Update balena-os/leviathan-worker to v2.10.10 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.49
+>> #### (2025-10-13)
+>> 
+>> * Update balena-io/balena-cli to v22.4.11 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.48
+>> #### (2025-10-13)
+>> 
+>> * Update Lock file maintenance [balena-renovate[bot]]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.6.11
+> ### (2025-10-10)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 9cb148e [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.36.47
+>> #### (2025-10-09)
+>> 
+>> * Update balena-io/balena-cli to v22.4.10 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.46
+>> #### (2025-10-06)
+>> 
+>> * Update balena-os/leviathan-worker to v2.10.9 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.45
+>> #### (2025-10-06)
+>> 
+>> * Update Lock file maintenance [balena-renovate[bot]]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v6.6.10+rev20
 ## (2025-12-02)
 
