@@ -1,4 +1,18 @@
 - commits:
+    - subject: "workflows: workflows: Move testing to BC from BM"
+      hash: 86bdddb4dbbb7eeda731a0edec14655bf8a12a34
+      body: ""
+      footer:
+        Changelog-entry: "workflows: workflows: Move testing to BC from BM"
+        changelog-entry: "workflows: workflows: Move testing to BC from BM"
+        Signed-off-by: Ryan Cooke<ryan@balena.io>
+        signed-off-by: Ryan Cooke<ryan@balena.io>
+      author: Ryan Cooke
+      nested: []
+  version: 6.10.26+rev1
+  title: ""
+  date: 2026-03-02T14:39:59.623Z
+- commits:
     - subject: Update layers/meta-balena to 4e641880ccacff9e6bd93183affa53ca7767f5f3
       hash: 9bae7a5e0595a0609df34cd4006fd2b22a093f9d
       body: Update layers/meta-balena
