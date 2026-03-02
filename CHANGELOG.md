@@ -1,6 +1,47 @@
 Change log
 -----------
 
+# v6.10.26+rev2
+## (2026-03-02)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 2649a8d9024a2986d092dff178da9bd14c39f189 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.39.28
+> ### (2026-02-18)
+> 
+> * Update aws/aws-cli to v2.33.25 [balena-renovate[bot]]
+> 
+> ## balena-yocto-scripts-1.39.27
+> ### (2026-02-13)
+> 
+> * Remove dead AMI script and its Dockerfile dependencies [Kyle Harding]
+> * Replace deprecated `balena key add` with `balena ssh-key add` [Kyle Harding]
+> 
+> ## balena-yocto-scripts-1.39.26
+> ### (2026-02-10)
+> 
+> * Update aws/aws-cli to v2.33.18 [balena-renovate[bot]]
+> 
+> ## balena-yocto-scripts-1.39.25
+> ### (2026-02-07)
+> 
+> * Update balena-io-examples/setup-balena-action action to v0.0.96 [balena-renovate[bot]]
+> 
+> ## balena-yocto-scripts-1.39.24
+> ### (2026-02-07)
+> 
+> * Update aws-actions/configure-aws-credentials action to v6 [balena-renovate[bot]]
+> 
+> ## balena-yocto-scripts-1.39.23
+> ### (2026-02-06)
+> 
+> * Update aws/aws-cli to v2.33.17 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.10.26+rev1
 ## (2026-03-02)
 

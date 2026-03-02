@@ -1,4 +1,113 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 2649a8d9024a2986d092dff178da9bd14c39f189
+      hash: 46e1b0fe993a138b38e5fccc20410c24c547214e
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 2649a8d9024a2986d092dff178da9bd14c39f189
+        changelog-entry: Update balena-yocto-scripts to 2649a8d9024a2986d092dff178da9bd14c39f189
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update aws/aws-cli to v2.33.25
+              hash: 86a95ce38bfad52df52e4a4283abe7f4d540d1f3
+              body: |
+                Update aws/aws-cli from 2.33.18 to 2.33.25
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.39.28
+          title: ""
+          date: 2026-02-18T23:19:26.827Z
+        - commits:
+            - subject: Remove dead AMI script and its Dockerfile dependencies
+              hash: c1f8c608d4d72c45e5a311523f7d69a1b9e4174a
+              body: |
+                The workflow inlines all AMI logic directly and never calls
+                balena-generate-ami.sh. Remove the script along with its
+                Dockerfile COPY and the awscli/udev/python3-pip packages
+                that only existed to support it.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+            - subject: Replace deprecated `balena key add` with `balena ssh-key add`
+              hash: ae66932650c91e6f5f3c61c6a4540961d1fa20e4
+              body: |
+                balena CLI v23.0.0 removed the `key add` alias. The AMI test
+                setup step still used it while the cleanup step already used
+                the new `ssh-key list`/`ssh-key rm` names.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.39.27
+          title: ""
+          date: 2026-02-13T11:14:39.619Z
+        - commits:
+            - subject: Update aws/aws-cli to v2.33.18
+              hash: c150c44a4c497ab38368182b3ff6bbf044868a3b
+              body: |
+                Update aws/aws-cli from 2.33.17 to 2.33.18
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.39.26
+          title: ""
+          date: 2026-02-10T00:58:39.245Z
+        - commits:
+            - subject: Update balena-io-examples/setup-balena-action action to v0.0.96
+              hash: cec04d36d288e284944ff638e70ecfa3de25feda
+              body: >
+                Update balena-io-examples/setup-balena-action from 0.0.95 to
+                0.0.96
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.39.25
+          title: ""
+          date: 2026-02-07T10:49:18.790Z
+        - commits:
+            - subject: Update aws-actions/configure-aws-credentials action to v6
+              hash: 05dde72d0c05b619bbe8af0f16a6d301e393997a
+              body: |
+                Update aws-actions/configure-aws-credentials from 5.1.1 to 6.0.0
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.39.24
+          title: ""
+          date: 2026-02-07T06:49:00.329Z
+        - commits:
+            - subject: Update aws/aws-cli to v2.33.17
+              hash: 7f31be022b971a55da4d7deec0efd783e7fcda1d
+              body: |
+                Update aws/aws-cli from 2.33.14 to 2.33.17
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.39.23
+          title: ""
+          date: 2026-02-06T23:36:29.035Z
+  version: 6.10.26+rev2
+  title: ""
+  date: 2026-03-02T21:23:20.593Z
+- commits:
     - subject: "workflows: workflows: Move testing to BC from BM"
       hash: 86bdddb4dbbb7eeda731a0edec14655bf8a12a34
       body: ""
