@@ -6,7 +6,6 @@ DEPENDS = "bison-native"
 SRC_URI:append = " \
     file://0001-ucm93-Integrate-with-balenaOS.patch \
     file://revert_env_erase_ptr.patch \
-    file://0002-fix-return-vaue-propagatin-out-of-environ.patch \
 "
 
 BALENA_DEVICE_FDT_ADDR_VAR = "fdt_addr_r"
@@ -17,14 +16,14 @@ BALENA_UBOOT_DEVICE_TYPES = "usb mmc"
 # at the date of the present commit,
 # otherwise we won't know which exact
 # revision is used by which balenaOS release
-SRCREV="34382c7df25560904a521d3f62bf5768899c55a2"
+SRCREV="86b924310f84d7a026ccb6101734385cc917959f"
 
 # WORKAROUND for unblocking builds, because the
 # old upstream branch has been renamed.
 # This board may need a BSP update after the upstream issue
 # https://github.com/compulab-yokneam/u-boot-compulab/issues/6
 # is clarified
-SRCBRANCH = "to-be-removed/u-boot-compulab_v2022.04"
+SRCBRANCH = "u-boot-compulab_v2023.04"
 
 # Bring in configure step from poky
 # to make sure the merge_config script is called
