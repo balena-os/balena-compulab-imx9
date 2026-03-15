@@ -1,6 +1,107 @@
 Change log
 -----------
 
+# v6.11.13
+## (2026-03-15)
+
+
+<details>
+<summary> Update layers/meta-balena to 3163559db59c23c55f81a18b5caabf422ee55499 [Florin Sarbu] </summary>
+
+> ## meta-balena-6.11.13
+> ### (2026-03-14)
+> 
+> * tcgtool: update to v0.1.4 [Michal Toman]
+> 
+> ## meta-balena-6.11.12
+> ### (2026-03-14)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 6430fad [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.36.101
+>> #### (2026-03-11)
+>> 
+>> * Update core/contracts digest to ab2042b [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.100
+>> #### (2026-03-09)
+>> 
+>> * Update core/contracts digest to 73054ac [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.99
+>> #### (2026-03-09)
+>> 
+>> * Update Lock file maintenance [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.98
+>> #### (2026-03-07)
+>> 
+>> * Update docker/setup-buildx-action action to v4 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.97
+>> #### (2026-03-02)
+>> 
+>> * Update Lock file maintenance [balena-renovate[bot]]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.11.11
+> ### (2026-03-10)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v17.6.3 [balena-renovate[bot]] </summary>
+> 
+>> ### balena-supervisor-17.6.3
+>> #### (2026-03-10)
+>> 
+>> * Only report download progress if service status is `Downloading` [Felipe Lalanne]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.11.10
+> ### (2026-03-05)
+> 
+> * efitools: update to master [Michal Toman]
+> 
+> ## meta-balena-6.11.9
+> ### (2026-03-04)
+> 
+> * recipes-support/hostapp-update-hooks: Deploy blacklisted bootloader files [Alexandru Costache]
+> 
+
+</details>
+
+
+<details>
+<summary> Update contracts to ab2042b50e075fa27e16e23bb413adac7700c132 [Florin Sarbu] </summary>
+
+> ## contracts-2.0.140
+> ### (2026-03-11)
+> 
+> * iot-gate-imx8plus-d1d8: Enable bluetooth and wifi [Florin Sarbu]
+> 
+> ## contracts-2.0.139
+> ### (2026-03-11)
+> 
+> * ucm-imx93: Set wifi and bt to false [Florin Sarbu]
+> 
+> ## contracts-2.0.138
+> ### (2026-03-09)
+> 
+> * contracts/raspberrypi5: Update device name to mention CM5 support [Alexandru]
+> 
+
+</details>
+
+* Update to Scarthgap [Florin Sarbu]
+
 # v6.11.8
 ## (2026-03-03)
 
