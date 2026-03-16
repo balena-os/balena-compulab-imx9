@@ -1,4 +1,20 @@
 - commits:
+    - subject: Add back the HUP testsuite for ucm-imx93
+      hash: 4c75509eab651035adf51a04c1520b69b8f0fb24
+      body: >
+        We should now have a working setup again for all the testsuites on the
+        ucm-imx93.
+      footer:
+        Changelog-entry: Add back the HUP testsuite for ucm-imx93
+        changelog-entry: Add back the HUP testsuite for ucm-imx93
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 6.11.13+rev1
+  title: ""
+  date: 2026-03-16T13:02:54.288Z
+- commits:
     - subject: Update layers/meta-balena to 3163559db59c23c55f81a18b5caabf422ee55499
       hash: a6514f52b59a569822ff784ff3537eb92a9e901c
       body: |

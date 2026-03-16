@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v6.11.13+rev1
+## (2026-03-16)
+
+* Add back the HUP testsuite for ucm-imx93 [Florin Sarbu]
+
 # v6.11.13
 ## (2026-03-15)
 
