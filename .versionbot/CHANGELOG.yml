@@ -1,4 +1,50 @@
 - commits:
+    - subject: Update layers/meta-balena to fac181a337cfca547ebc14dbdccabe055c78b2de
+      hash: 2d8ed55ea51a4dd7b0d50fb39d0bc4893b7fad61
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to fac181a337cfca547ebc14dbdccabe055c78b2de
+        changelog-entry: Update layers/meta-balena to fac181a337cfca547ebc14dbdccabe055c78b2de
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: add flock and lockfile documentation
+              hash: d5ae3bea0cce63d60e5048fe696c655a666b9550
+              body: ""
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Yann CARDAILLAC <yann.cardaillac@balena.io>
+                signed-off-by: Yann CARDAILLAC <yann.cardaillac@balena.io>
+              author: Yann CARDAILLAC
+              nested: []
+          version: meta-balena-6.12.0
+          title: ""
+          date: 2026-03-17T10:38:00.364Z
+        - commits:
+            - subject: "wpa-supplicant: Align to recipe from Scarthgap"
+              hash: bd8979799b88c68b40892af469d0fe1da5a7d791
+              body: >
+                We add the recipe with the patches from Scarthgap revision
+                97f732ce9b914ea4022c9425611c16d333c2787b
+
+
+                This is the same package version but adds additional CVE
+                patches.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.11.14
+          title: ""
+          date: 2026-03-16T13:02:38.469Z
+  version: 6.12.0
+  title: ""
+  date: 2026-03-17T14:38:00.135Z
+- commits:
     - subject: Update contracts to 7225779853a3904517285bd19f7e2be44026c108
       hash: c90de888160c50879c6a2e906d061c4a04056789
       body: Update contracts
