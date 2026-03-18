@@ -11,7 +11,6 @@ IMAGE_INSTALL:append = " \
     mbpoll \
     libgpiod \
     libgpiod-tools \
-    ethos-u-firmware \
 "
 
 IMAGE_INSTALL:remove = "kernel-image"
