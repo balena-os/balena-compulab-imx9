@@ -22,3 +22,7 @@ CORE_IMAGE_EXTRA_INSTALL:remove = " gpsd gps-utils connman wvdial ppp modemmanag
 
 # THe eMMC has 64GB, let's ensure there's sufficient space for the rootfs in the future
 IMAGE_ROOTFS_SIZE = "983040"
+
+# balena-bootloader support for iot-link
+BALENA_BOOT_PARTITION_FILES:append:iot-link = " boot.scr:/boot.scr "
+RDEPENDS:${PN}:iot-link += " u-boot-script "
