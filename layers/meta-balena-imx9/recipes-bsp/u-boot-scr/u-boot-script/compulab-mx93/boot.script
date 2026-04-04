@@ -1,0 +1,10 @@
+echo "balena-image-flasher-MACHINE boot script"
+
+setenv image_zip_addr ${initrd_addr}
+setenv image_load_addr 0x98000000
+
+load  usb 0:2 ${image_zip_addr} boot/Image.gz
+load  usb 0:2 ${fdt_addr_r} boot/${fdtfile}
+unzip ${image_zip_addr} ${image_load_addr}
+setenv bootargs console=${console} root=/dev/sda2 rootwait flasher
+booti ${image_load_addr} - ${fdt_addr_r}
