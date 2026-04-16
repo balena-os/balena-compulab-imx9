@@ -1,6 +1,57 @@
 Change log
 -----------
 
+# v6.12.9
+## (2026-04-16)
+
+
+<details>
+<summary> Update layers/meta-balena to b02004692e11591badd7e15fd6d03b8bc3f03b56 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.12.9
+> ### (2026-04-16)
+> 
+> * Fix modemmanager build on dunfell [Florin Sarbu]
+> 
+> ## meta-balena-6.12.8
+> ### (2026-04-13)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 2e945b4 [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.36.106
+>> #### (2026-04-13)
+>> 
+>> * Update Lock file maintenance [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.105
+>> #### (2026-04-11)
+>> 
+>> * Update actions/upload-artifact digest to 043fb46 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.104
+>> #### (2026-04-10)
+>> 
+>> * Update balena-os/leviathan-worker to v2.10.30 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.103
+>> #### (2026-04-10)
+>> 
+>> * Update Lock file maintenance [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.36.102
+>> #### (2026-04-10)
+>> 
+>> * core/contracts: Update submodule to v2.0.142 [Alexandru Costache]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v6.12.7
 ## (2026-04-11)
 
