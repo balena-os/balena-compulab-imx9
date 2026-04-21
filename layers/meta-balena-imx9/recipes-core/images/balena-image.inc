@@ -26,3 +26,13 @@ IMAGE_ROOTFS_SIZE = "983040"
 # balena-bootloader support for iot-link
 BALENA_BOOT_PARTITION_FILES:append:iot-link = " boot.scr:/boot.scr "
 RDEPENDS:${PN}:iot-link += " u-boot-script "
+
+BALENA_BOOT_PARTITION_FILES:append:iot-link = " \
+    balena-bootloader/${KERNEL_IMAGETYPE}-initramfs-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
+    balena-bootloader/bootenv:/bootenv \
+"
+
+IMAGE_INSTALL:append:iot-link = " grub-editenv"
+
+do_rootfs[depends] += " virtual/balena-bootloader:do_deploy"
+do_image_balenaos_img[depends] += " virtual/balena-bootloader:do_deploy"
