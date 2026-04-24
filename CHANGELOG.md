@@ -1,6 +1,13 @@
 Change log
 -----------
 
+# v6.12.11+rev1
+## (2026-04-24)
+
+* layers/meta-bsp-imx9: Update the layer revision [Valentin Raevsky]
+* Add iot-link coffee file [Valentin Raevsky]
+* Add mcm-imx93 coffee file [Valentin Raevsky]
+
 # v6.12.11
 ## (2026-04-23)
 

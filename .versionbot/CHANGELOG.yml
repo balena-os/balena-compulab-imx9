@@ -1,4 +1,39 @@
 - commits:
+    - subject: "layers/meta-bsp-imx9: Update the layer revision"
+      hash: 1bd47c412dfd94a9763dcc5c7fc87cad05a22c1a
+      body: |
+        CompuLab created a dedicated BalenaOS branch for this platform.
+      footer:
+        Changelog-entry: "layers/meta-bsp-imx9: Update the layer revision"
+        changelog-entry: "layers/meta-bsp-imx9: Update the layer revision"
+        Signed-off-by: Valentin Raevsky <valentin@compulab.co.il>
+        signed-off-by: Valentin Raevsky <valentin@compulab.co.il>
+      author: Valentin Raevsky
+      nested: []
+    - subject: Add iot-link coffee file
+      hash: 841eb74a3d098aa26e55b2e3c24dca3f43d8a91c
+      body: ""
+      footer:
+        Changelog-entry: Add iot-link coffee file
+        changelog-entry: Add iot-link coffee file
+        Signed-off-by: Valentin Raevsky <valentin@compulab.co.il>
+        signed-off-by: Valentin Raevsky <valentin@compulab.co.il>
+      author: Valentin Raevsky
+      nested: []
+    - subject: Add mcm-imx93 coffee file
+      hash: 96aa59ad7ee17077d681481665ddcee4e57be383
+      body: ""
+      footer:
+        Changelog-entry: Add mcm-imx93 coffee file
+        changelog-entry: Add mcm-imx93 coffee file
+        Signed-off-by: Valentin Raevsky <valentin@compulab.co.il>
+        signed-off-by: Valentin Raevsky <valentin@compulab.co.il>
+      author: Valentin Raevsky
+      nested: []
+  version: 6.12.11+rev1
+  title: ""
+  date: 2026-04-24T12:28:10.511Z
+- commits:
     - subject: Update layers/meta-balena to cc6d368d0efde0552b2cab398ea005848cc51d6c
       hash: ceac4f9c33869c50f79757bf305b0f72a8a41933
       body: Update layers/meta-balena
