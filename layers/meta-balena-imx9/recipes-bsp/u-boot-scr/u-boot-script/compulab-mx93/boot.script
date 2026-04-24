@@ -1,0 +1,11 @@
+echo "balenaOS boot script"
+
+usb start
+if fatload usb 0:1 ${initrd_addr} balena-image-flasher; then setenv bootdev usb; setenv bootargs root=LABEL=flash-rootA flasher; else setenv bootdev mmc; fi
+
+setenv image_load_addr 0x98000000
+
+load  ${bootdev} 0:1 ${image_load_addr} Image
+load  ${bootdev} 0:2 ${fdt_addr_r} boot/${fdtfile}
+setenv bootargs ${bootargs} console=${console} rootwait balena_stage2
+booti ${image_load_addr} - ${fdt_addr_r}

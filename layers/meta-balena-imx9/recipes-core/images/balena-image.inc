@@ -11,7 +11,6 @@ IMAGE_INSTALL:append = " \
     mbpoll \
     libgpiod \
     libgpiod-tools \
-    ethos-u-firmware \
 "
 
 IMAGE_INSTALL:remove = "kernel-image"
@@ -23,3 +22,17 @@ CORE_IMAGE_EXTRA_INSTALL:remove = " gpsd gps-utils connman wvdial ppp modemmanag
 
 # THe eMMC has 64GB, let's ensure there's sufficient space for the rootfs in the future
 IMAGE_ROOTFS_SIZE = "983040"
+
+# balena-bootloader support for iot-link
+BALENA_BOOT_PARTITION_FILES:append:iot-link = " boot.scr:/boot.scr "
+RDEPENDS:${PN}:iot-link += " u-boot-script "
+
+BALENA_BOOT_PARTITION_FILES:append:iot-link = " \
+    balena-bootloader/${KERNEL_IMAGETYPE}-initramfs-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
+    balena-bootloader/bootenv:/bootenv \
+"
+
+IMAGE_INSTALL:append:iot-link = " grub-editenv"
+
+do_rootfs[depends] += " virtual/balena-bootloader:do_deploy"
+do_image_balenaos_img[depends] += " virtual/balena-bootloader:do_deploy"
