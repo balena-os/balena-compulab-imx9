@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v6.12.11+rev2
+## (2026-04-24)
+
+* Add GHA workflow for new Compulab IOT-LINK Gateway board [Florin Sarbu]
+
 # v6.12.11+rev1
 ## (2026-04-24)
 

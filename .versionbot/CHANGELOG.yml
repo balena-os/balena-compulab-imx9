@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add GHA workflow for new Compulab IOT-LINK Gateway board
+      hash: 1dd03b5a7270c40a3bf2120db85f4ff7704863a4
+      body: ""
+      footer:
+        Changelog-entry: Add GHA workflow for new Compulab IOT-LINK Gateway board
+        changelog-entry: Add GHA workflow for new Compulab IOT-LINK Gateway board
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 6.12.11+rev2
+  title: ""
+  date: 2026-04-24T21:39:15.192Z
+- commits:
     - subject: "layers/meta-bsp-imx9: Update the layer revision"
       hash: 1bd47c412dfd94a9763dcc5c7fc87cad05a22c1a
       body: |
