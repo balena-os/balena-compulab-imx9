@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v6.12.11+rev4
+## (2026-05-08)
+
+* Compress the kernel and balena-bootloader [Florin Sarbu]
+
 # v6.12.11+rev3
 ## (2026-05-08)
 

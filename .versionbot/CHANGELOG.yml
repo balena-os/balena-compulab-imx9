@@ -1,4 +1,19 @@
 - commits:
+    - subject: Compress the kernel and balena-bootloader
+      hash: e872900985e0a626eb3649f4cc1d0b81c89d8f11
+      body: |
+        This brings their sizes down to half.
+      footer:
+        Changelog-entry: Compress the kernel and balena-bootloader
+        changelog-entry: Compress the kernel and balena-bootloader
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 6.12.11+rev4
+  title: ""
+  date: 2026-05-08T21:32:17.297Z
+- commits:
     - subject: Update balena-yocto-scripts to 23eb6005eba2a46be19a28a8e94d382257966b52
       hash: c87abcc838ccb967701b87a5076ae4190016f339
       body: Update balena-yocto-scripts
