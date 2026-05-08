@@ -26,6 +26,8 @@ IMAGE_ROOTFS_SIZE = "983040"
 # balena-bootloader support for iot-link
 BALENA_BOOT_PARTITION_FILES:append:iot-link = " boot.scr:/boot.scr "
 RDEPENDS:${PN}:iot-link += " u-boot-script "
+IMAGE_ROOTFS_SIZE:iot-link = "655360"
+BALENA_BOOT_SIZE:iot-link="81920"
 
 BALENA_BOOT_PARTITION_FILES:append:iot-link = " \
     balena-bootloader/${KERNEL_IMAGETYPE}-initramfs-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
