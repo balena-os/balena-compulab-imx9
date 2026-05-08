@@ -12,8 +12,8 @@ BALENA_DEFCONFIG_NAME = "${KERNEL_CONFIG}"
 do_install:append() {
     # Module support is needed as a dependency for kexec image authentication
     # specifically CONFIG_SYSTEM_DATA_VERIFICATION
-    # But we remove modules here
-    rm -rf ${D}/etc ${D}${nonarch_base_libdir} ${D}${exec_prefix}
+    # But we remove modules here and everything else from /usr
+    rm -rf ${D}/usr
 }
 
 do_deploy:append () {
@@ -31,3 +31,6 @@ INITRAMFS_IMAGE = "balena-image-bootloader-initramfs"
 KERNEL_PACKAGE_NAME = "balena-bootloader"
 
 PROVIDES = "virtual/balena-bootloader"
+
+# remove this task to prevent the creation of the metadata that triggers rootfs.py to run depmod for the linux-balena-bootloader
+deltask do_packagedata
