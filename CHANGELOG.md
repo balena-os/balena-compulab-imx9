@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v6.12.11+rev5
+## (2026-05-20)
+
+* Update iot-link workflow to temporarily remove test matrix [Alexandru]
+
 # v6.12.11+rev4
 ## (2026-05-08)
 

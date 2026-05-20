@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update iot-link workflow to temporarily remove test matrix
+      hash: 3f0e008ac583bad95cbcd636705309a817cf2d50
+      body: ""
+      footer:
+        Changelog-entry: Update iot-link workflow to temporarily remove test matrix
+        changelog-entry: Update iot-link workflow to temporarily remove test matrix
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru
+      nested: []
+  version: 6.12.11+rev5
+  title: ""
+  date: 2026-05-20T20:46:00.273Z
+- commits:
     - subject: Compress the kernel and balena-bootloader
       hash: e872900985e0a626eb3649f4cc1d0b81c89d8f11
       body: |
