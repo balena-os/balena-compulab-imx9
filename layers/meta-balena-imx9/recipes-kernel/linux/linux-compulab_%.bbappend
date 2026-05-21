@@ -33,3 +33,6 @@ BALENA_CONFIGS[noar1335] = " \
 	CONFIG_MXC_CAMERA_AR1335_AF=n \
 	CONFIG_MXC_CAMERA_AR1335_MCU=n \
 "
+
+# always force kernel recompile to avoid potential broken sstate
+do_compile[nostamp] = "1"
