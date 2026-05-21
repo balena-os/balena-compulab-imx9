@@ -1,4 +1,19 @@
 - commits:
+    - subject: Always force kernel recompile to avoid stale broken sstate
+      hash: fca86cac7ee911b897a07041698a94db214fd439
+      body: |
+        We do this to avoid stale broken sstate
+      footer:
+        Changelog-entry: Always force kernel recompile to avoid stale broken sstate
+        changelog-entry: Always force kernel recompile to avoid stale broken sstate
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 6.12.11+rev6
+  title: ""
+  date: 2026-05-21T15:37:48.012Z
+- commits:
     - subject: Update iot-link workflow to temporarily remove test matrix
       hash: 3f0e008ac583bad95cbcd636705309a817cf2d50
       body: ""

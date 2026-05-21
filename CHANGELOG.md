@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v6.12.11+rev6
+## (2026-05-21)
+
+* Always force kernel recompile to avoid stale broken sstate [Florin Sarbu]
+
 # v6.12.11+rev5
 ## (2026-05-20)
 
