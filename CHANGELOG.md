@@ -1,6 +1,31 @@
 Change log
 -----------
 
+# v6.12.11+rev9
+## (2026-06-02)
+
+
+<details>
+<summary> Update balena-yocto-scripts to d73fe53b5bcd894a8d9bb8794233484432e30115 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.40.0
+> ### (2026-06-02)
+> 
+> * Make release asset upload step required [Kyle Harding]
+> 
+> ## balena-yocto-scripts-1.39.35
+> ### (2026-05-16)
+> 
+> * build/barys: Add Wrynose build support [Alexandru Costache]
+> 
+> ## balena-yocto-scripts-1.39.34
+> ### (2026-05-07)
+> 
+> * Dockerfile_yocto-build-env: Switch to docker-ce, pin 28.5.2 [Kyle Harding]
+> 
+
+</details>
+
 # v6.12.11+rev8
 ## (2026-05-22)
 
