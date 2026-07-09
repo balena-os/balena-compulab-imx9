@@ -1,0 +1,13 @@
+--------------------------------------------------------------------------
+
+Driver: brcmfmac - Broadcom/Cypress FullMAC WLAN driver
+
+File: brcm/brcmfmac4339-sdio.txt
+File: brcm/brcmfmac43430-sdio.txt
+File: brcm/brcmfmac43455-sdio.txt
+File: brcm/brcmfmac4356-pcie.txt
+File: brcm/brcmfmac4359-pcie.bin
+File: brcm/brcmfmac4359-pcie.clm_blob
+File: brcm/brcmfmac4359-pcie.txt
+
+--------------------------------------------------------------------------
