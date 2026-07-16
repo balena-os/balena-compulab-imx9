@@ -38,3 +38,9 @@ IMAGE_INSTALL:append:iot-link = " grub-editenv"
 
 do_rootfs[depends] += " virtual/balena-bootloader:do_deploy"
 do_image_balenaos_img[depends] += " virtual/balena-bootloader:do_deploy"
+
+BALENA_STATE_SIZE:iot-link = "20480"
+BALENA_BOOT_SIZE:mcm-imx93 = "40960"
+BALENA_STATE_SIZE:mcm-imx93 = "20480"
+BALENA_BOOT_SIZE:ucm-imx93 = "40960"
+BALENA_STATE_SIZE:ucm-imx93 = "20480"
