@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-security to 226839ac408223f8041cde1b1d8b762d6fbc8050
+      hash: 46b4fa929f46ffa3fa708ae51e476176f448fc3c
+      body: Update layers/meta-security
+      footer:
+        Changelog-entry: Update layers/meta-security to 226839ac408223f8041cde1b1d8b762d6fbc8050
+        changelog-entry: Update layers/meta-security to 226839ac408223f8041cde1b1d8b762d6fbc8050
+      author: balena-renovate[bot]
+      nested: []
+  version: 7.7.2+rev1
+  title: ""
+  date: 2026-07-28T01:25:25.351Z
+- commits:
     - subject: Update layers/meta-balena to f953cbe62e7bd00402a5ad083d8a7431a00ec3c4
       hash: cb535da843342f15e221845f78f2e4a9fe0e291b
       body: Update layers/meta-balena

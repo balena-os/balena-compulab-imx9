@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v7.7.2+rev1
+## (2026-07-28)
+
+* Update layers/meta-security to 226839ac408223f8041cde1b1d8b762d6fbc8050 [balena-renovate[bot]]
+
 # v7.7.2
 ## (2026-07-27)
 
