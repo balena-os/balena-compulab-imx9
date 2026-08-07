@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v7.9.0+rev2
+## (2026-08-07)
+
+* Revert "Update layers/poky digest to 96b8a44" [Florin Sarbu]
+* Update layers/poky to 96b8a445fd3601f132d5ec56c5db12da21ed2479 [balena-renovate[bot]]
+
 # v7.9.0+rev1
 ## (2026-08-06)
 

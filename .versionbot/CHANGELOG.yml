@@ -1,4 +1,29 @@
 - commits:
+    - subject: Revert "Update layers/poky digest to 96b8a44"
+      hash: 61ed4fb5e2f90d8eedef9fa3858a4a3a33d2d28e
+      body: >
+        This was forcefully merged even though it was not building because of a
+        bug that added [skip  ci] to the commit message.
+
+
+        This reverts commit 367e1fbfbfefcb28e164dc485870db4e99ebb284.
+      footer:
+        Changelog-entry: Revert "Update layers/poky digest to 96b8a44"
+        changelog-entry: Revert "Update layers/poky digest to 96b8a44"
+      author: Florin Sarbu
+      nested: []
+    - subject: Update layers/poky to 96b8a445fd3601f132d5ec56c5db12da21ed2479
+      hash: 367e1fbfbfefcb28e164dc485870db4e99ebb284
+      body: Update layers/poky
+      footer:
+        Changelog-entry: Update layers/poky to 96b8a445fd3601f132d5ec56c5db12da21ed2479
+        changelog-entry: Update layers/poky to 96b8a445fd3601f132d5ec56c5db12da21ed2479
+      author: balena-renovate[bot]
+      nested: []
+  version: 7.9.0+rev2
+  title: ""
+  date: 2026-08-07T13:40:59.022Z
+- commits:
     - subject: Update layers/meta-cyclonedx to 2ad28404e96f4f91e1493a7e10d2481294198b6d
       hash: 89900111ad4cee799a6b42db44c02b2d2c4100e3
       body: Update layers/meta-cyclonedx
