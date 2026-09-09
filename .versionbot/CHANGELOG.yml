@@ -1,4 +1,45 @@
 - commits:
+    - subject: Update contracts to 93b30010e7441051d361fa319a6e395f5a3c94f4
+      hash: 2dcd30c8a94e25d9522728590397f7951d4db574
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 93b30010e7441051d361fa319a6e395f5a3c94f4
+        changelog-entry: Update contracts to 93b30010e7441051d361fa319a6e395f5a3c94f4
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "revpi-connect-4: remove led"
+              hash: a6cc5e7131ccc62e886d95f16001d98a59ad3303
+              body: |
+                This device type has no LED.
+              footer:
+                Relates-to: https://balena.zulipchat.com/#narrow/channel/345889-balena-io.2Fos/topic/raspberrypi.20pipeline/near/619759972
+                relates-to: https://balena.zulipchat.com/#narrow/channel/345889-balena-io.2Fos/topic/raspberrypi.20pipeline/near/619759972
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+          version: contracts-2.0.149
+          title: ""
+          date: 2026-08-28T11:23:48.697Z
+        - commits:
+            - subject: "hw.device-type: Update Orin boards L4T version to 39.2.0"
+              hash: ebae4da834d1e4efe16b41718189ae26005af527
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+          version: contracts-2.0.148
+          title: ""
+          date: 2026-08-24T18:52:54.835Z
+  version: 8.0.9+rev3
+  title: ""
+  date: 2026-09-09T18:36:55.874Z
+- commits:
     - subject: ".gitmodules: Declare a branch for every submodule"
       hash: 7f97e654139ee6ec1855ba1fd95f71c5105766ab
       body: >
