@@ -1,4 +1,31 @@
 - commits:
+    - subject: ".gitmodules: Declare a branch for every submodule"
+      hash: 7f97e654139ee6ec1855ba1fd95f71c5105766ab
+      body: >
+        Ten of the twelve submodules declared no branch, so
+        check_gitmodules_branches
+
+        fails on every PR. Each declared branch below contains the current pin.
+
+
+        meta-imx is pinned exactly to the tip of scarthgap-6.6.52-2.2.0, so that
+        is
+
+        the branch named rather than a later NXP release. meta-security is
+        pinned to
+
+        a commit that is not on scarthgap, so it tracks master.
+      footer:
+        Changelog-entry: ".gitmodules: Declare a branch for every submodule"
+        changelog-entry: ".gitmodules: Declare a branch for every submodule"
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 8.0.9+rev2
+  title: ""
+  date: 2026-09-09T12:07:32.542Z
+- commits:
     - subject: Update flowzonify to 0.4.4
       hash: abc328d4f52665a1fa3e35401b375170f684e066
       body: Update flowzonify

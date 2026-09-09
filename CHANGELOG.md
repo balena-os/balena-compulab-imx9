@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v8.0.9+rev2
+## (2026-09-09)
+
+* .gitmodules: Declare a branch for every submodule [Kyle Harding]
+
 # v8.0.9+rev1
 ## (2026-09-09)
 
