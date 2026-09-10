@@ -1,6 +1,13 @@
 Change log
 -----------
 
+# v8.0.9+rev5
+## (2026-09-10)
+
+* Dedupe firmware-nxp-wifi-nxpiw610-sdio in PACKAGES [guille-vega]
+* Fix empty SECOEXT_FIRMWARE_NAME breaking firmware-ele-imx on mx91/mx93 [guille-vega]
+* Update layers/meta-arm to 0a4b911d9fd63ab29c4532a907fae3282dbdcfe4 [balena-renovate[bot]]
+
 # v8.0.9+rev4
 ## (2026-09-09)
 

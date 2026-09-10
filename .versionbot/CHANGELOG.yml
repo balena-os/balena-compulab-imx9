@@ -1,4 +1,40 @@
 - commits:
+    - subject: Dedupe firmware-nxp-wifi-nxpiw610-sdio in PACKAGES
+      hash: 28846338b342fbb3def26af412350b00d470fce2
+      body: |
+        meta-freescale and meta-imx-bsp both add ${PN}-nxpiw610-sdio to
+        PACKAGES, failing bitbake's QA check.
+      footer:
+        Changelog-entry: Dedupe firmware-nxp-wifi-nxpiw610-sdio in PACKAGES
+        changelog-entry: Dedupe firmware-nxp-wifi-nxpiw610-sdio in PACKAGES
+        Signed-off-by: guille-vega <guillermo.vega@balena.io>
+        signed-off-by: guille-vega <guillermo.vega@balena.io>
+      author: guille-vega
+      nested: []
+    - subject: Fix empty SECOEXT_FIRMWARE_NAME breaking firmware-ele-imx on mx91/mx93
+      hash: 03a54523ae12b4b36cf76a7bd44038ff8b00908f
+      body: |
+        Breaks firmware-ele-imx's do_install, which tries to install the
+        recipe's source directory itself.
+      footer:
+        Changelog-entry: Fix empty SECOEXT_FIRMWARE_NAME breaking firmware-ele-imx on mx91/mx93
+        changelog-entry: Fix empty SECOEXT_FIRMWARE_NAME breaking firmware-ele-imx on mx91/mx93
+        Signed-off-by: guille-vega <guillermo.vega@balena.io>
+        signed-off-by: guille-vega <guillermo.vega@balena.io>
+      author: guille-vega
+      nested: []
+    - subject: Update layers/meta-arm to 0a4b911d9fd63ab29c4532a907fae3282dbdcfe4
+      hash: 0a5a1b83dcfc69bc6c42d52b39d94150496f401f
+      body: Update layers/meta-arm
+      footer:
+        Changelog-entry: Update layers/meta-arm to 0a4b911d9fd63ab29c4532a907fae3282dbdcfe4
+        changelog-entry: Update layers/meta-arm to 0a4b911d9fd63ab29c4532a907fae3282dbdcfe4
+      author: balena-renovate[bot]
+      nested: []
+  version: 8.0.9+rev5
+  title: ""
+  date: 2026-09-10T19:11:35.270Z
+- commits:
     - subject: Update balena-os/github-workflows to
         08a88ee3ca2a070d59140fa334be2784f17918e0
       hash: 7a142822ca3b54bbace0d10bd700f29c8a47072e
