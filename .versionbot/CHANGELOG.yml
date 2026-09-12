@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/poky to 77d1feb37e280733684ae8a9449fb031d5d7ff40
+      hash: e584441c9326e1265c5b89ffc15ea144ec69958a
+      body: Update layers/poky
+      footer:
+        Changelog-entry: Update layers/poky to 77d1feb37e280733684ae8a9449fb031d5d7ff40
+        changelog-entry: Update layers/poky to 77d1feb37e280733684ae8a9449fb031d5d7ff40
+      author: balena-renovate[bot]
+      nested: []
+  version: 8.0.9+rev6
+  title: ""
+  date: 2026-09-12T12:43:01.781Z
+- commits:
     - subject: Dedupe firmware-nxp-wifi-nxpiw610-sdio in PACKAGES
       hash: 28846338b342fbb3def26af412350b00d470fce2
       body: |
