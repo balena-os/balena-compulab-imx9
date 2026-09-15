@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update balena-yocto-scripts to eb75d8880e97fc8e847fa27f329d70a87d182187
+      hash: c7e0f4a4b5f4fab678ad055eea82bf01dfb1b574
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to eb75d8880e97fc8e847fa27f329d70a87d182187
+        changelog-entry: Update balena-yocto-scripts to eb75d8880e97fc8e847fa27f329d70a87d182187
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update actions/download-artifact action to v8
+              hash: 6889fb775db182554bfc6299f6c4656f61b0271f
+              body: |
+                Update actions/download-artifact from 7.0.0 to 8.0.1
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.42.15
+          title: ""
+          date: 2026-09-15T00:23:21.877Z
+  version: 8.0.9+rev9
+  title: ""
+  date: 2026-09-15T09:41:23.221Z
+- commits:
     - subject: Update balena-yocto-scripts to cfcaee3d08296635a74f3841839401afa0298e01
       hash: 0b2b560ad0aa0c8ff3e1b759fdfe54027548f6e2
       body: Update balena-yocto-scripts
