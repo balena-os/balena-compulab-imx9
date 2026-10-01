@@ -1,4 +1,19 @@
 - commits:
+    - subject: Update layers/meta-openembedded to
+        0f00f8b9a21950640da8c5707343e5540133f86e
+      hash: 9bd1cb0b791efd0eb3d137eb3617db3c6c961105
+      body: Update layers/meta-openembedded
+      footer:
+        Changelog-entry: Update layers/meta-openembedded to
+          0f00f8b9a21950640da8c5707343e5540133f86e
+        changelog-entry: Update layers/meta-openembedded to
+          0f00f8b9a21950640da8c5707343e5540133f86e
+      author: balena-renovate[bot]
+      nested: []
+  version: 8.0.13+rev2
+  title: ""
+  date: 2026-10-01T07:03:12.140Z
+- commits:
     - subject: Update layers/meta-freescale to e82db4ef75d390cd9e4a06b8caf0f67668ddea94
       hash: efbc4274b3e01baffdf8692eb2f05563685ec678
       body: Update layers/meta-freescale
