@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update layers/meta-freescale to 114dda1a7639cac34e4e63c352e433d2d011a39c
+      hash: 741db7f762b82948c64c2d8bc4906afe6666ec74
+      body: Update layers/meta-freescale
+      footer:
+        Changelog-entry: Update layers/meta-freescale to
+          114dda1a7639cac34e4e63c352e433d2d011a39c
+        changelog-entry: Update layers/meta-freescale to
+          114dda1a7639cac34e4e63c352e433d2d011a39c
+      author: balena-renovate[bot]
+      nested: []
+  version: 8.0.14+rev3
+  title: ""
+  date: 2026-10-08T21:35:48.035Z
+- commits:
     - subject: Update balena-yocto-scripts to f493532250022bcf723bddd055c3c8cb770ae649
       hash: 792905986fbba5581460f101aed8c5d75bc40753
       body: Update balena-yocto-scripts
