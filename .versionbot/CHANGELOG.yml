@@ -1,4 +1,19 @@
 - commits:
+    - subject: Update layers/meta-compulab-bsp to
+        34ca4f5bfe44f07754b3bbb5bbde865ca4181f8e
+      hash: 151eb7dab4fe8f2fb705e53937294468311bab1d
+      body: Update layers/meta-compulab-bsp
+      footer:
+        Changelog-entry: Update layers/meta-compulab-bsp to
+          34ca4f5bfe44f07754b3bbb5bbde865ca4181f8e
+        changelog-entry: Update layers/meta-compulab-bsp to
+          34ca4f5bfe44f07754b3bbb5bbde865ca4181f8e
+      author: balena-renovate[bot]
+      nested: []
+  version: 8.0.14+rev5
+  title: ""
+  date: 2026-10-15T12:51:08.904Z
+- commits:
     - subject: Update balena-yocto-scripts to 436cae1eb39b15b2c74bac1450162eba0855eb0d
       hash: bf880caa525e4efef241f7f5225a9ef9388cf80b
       body: Update balena-yocto-scripts
