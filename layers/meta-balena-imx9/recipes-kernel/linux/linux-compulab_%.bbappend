@@ -1,5 +1,10 @@
 inherit kernel-balena
 
+FILESEXTRAPATHS:prepend := "${THISDIR}/compulab/${PV}:"
+
+# CVE-2026-98432: ipv4: free inet_opt and ireq_opt after an RCU grace period
+SRC_URI:append = " file://CVE-2026-98432.patch "
+
 BALENA_CONFIGS:append = " imx-sdma "
 BALENA_CONFIGS[imx-sdma] = " \
 	CONFIG_IMX_SDMA=m \
