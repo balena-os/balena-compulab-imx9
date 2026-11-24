@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v9.1.1+rev2
+## (2026-11-24)
+
+* Backport CVE-2026-98432 fix to the CompuLab 6.6.52 kernel [Ryan Cooke]
+
 # v9.1.1+rev1
 ## (2026-11-23)
 
